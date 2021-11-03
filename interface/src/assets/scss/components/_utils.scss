@@ -1,0 +1,11 @@
+@use 'mixins' as *;
+
+.page-header {
+	height: 15vh;
+	@include headingBottomBorder;
+
+	h4 {
+		padding-top: 0.5rem;
+	}
+
+}

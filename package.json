@@ -1,0 +1,24 @@
+{
+  "name": "groovedevelopers",
+  "version": "1.0.0",
+  "description": "Groove developers content management system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cms",
+    "content",
+    "management",
+    "system"
+  ],
+  "author": "groove developers",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}

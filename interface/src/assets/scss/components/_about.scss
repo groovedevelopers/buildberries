@@ -1,0 +1,46 @@
+@use 'mixins' as *;
+
+.about-page {
+	padding: 2.75rem auto;
+
+	.about-page-header {
+		padding: 2.75rem 0 1.25rem;
+
+		& > p {
+			padding-top: 2.35rem;
+		}
+	}
+}
+
+.about-page-body {
+
+	.team {
+		
+		padding: 10px 0;
+		height: 25vh;
+
+		.team-member {
+			width: 20vh;
+			margin-right: 1.5rem;
+			padding: 1vh 0.25rem;
+			box-shadow: 1px 1px 3px 3px #b7b7b7;
+
+			p {
+				margin-bottom: 0;
+			}
+		}
+	}
+
+	.questions-section {
+		padding: 3.75rem 0;
+
+		.accordion-button {
+			padding-left: 0;
+		}
+	}
+}
+
+
+h3 {
+	padding: 1.75rem 0 0.5rem;
+}

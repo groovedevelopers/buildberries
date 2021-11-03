@@ -1,0 +1,45 @@
+.cta {
+    padding: 5rem 0;
+    margin: 0;
+    color: #fff;
+    background-color: #000;
+    box-sizing: border-box;
+
+    .btn {
+        width: max-content;
+        margin: 2.25rem 0;
+    }
+}
+
+.footer {
+    height: max-content;
+    padding-top: 3.25rem;
+    background-color: black;
+    color: beige;
+    margin: 0;
+
+    ul {
+        padding-left: 0;
+
+        li {
+            list-style: none;            
+        }
+    } 
+
+    .copyright {
+        padding: 20px 0px;     
+
+        a {
+            padding-right: 10px;
+        }
+    }
+
+    a {
+        color: #b7b7b7;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #fff;
+    }
+}

@@ -1,0 +1,27 @@
+@use 'mixins' as *;
+
+.pricing-page-body {
+	min-height: 90vh;
+	margin: 10vh auto;
+
+	h4 {
+		margin-bottom: 3.25rem;
+	}
+
+	.pricing-div {
+		width: 50vh;
+		height: 70vh;
+		box-sizing: border-box;
+		padding: 2.25rem;
+		box-shadow: 5px 10px 20px #dfdfdf;
+		border-radius: 10px;
+		position: relative;
+
+		.btn {
+			width: 80%;
+			position: absolute;
+			bottom: 20px;
+			right: 10%;
+		}
+	}
+}

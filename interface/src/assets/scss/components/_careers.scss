@@ -1,0 +1,43 @@
+@use 'mixins' as *;
+
+.careers-page {
+	padding: 2.75rem auto;
+
+	.careers-page-header {
+		padding: 2.75rem 0 1.25rem;
+
+		& > p {
+			padding-top: 2.35rem;
+		}
+	}
+}
+
+.careers-page-body {
+	padding-bottom: 3.75rem;
+
+	.from-employees {
+		padding: 5.25rem 0;
+	}
+
+	.inform-form {
+		padding: 5.75rem 0;
+
+		input {
+			margin: 0.5rem 0;
+		}
+
+		textarea {
+			margin: 0.5rem 0;
+		}
+
+		.btn {
+			margin: 0.5rem 0;
+		}
+	}
+	
+}
+
+
+h3 {
+	padding: 1.75rem 0 0.5rem;
+}
