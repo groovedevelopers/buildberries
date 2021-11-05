@@ -6,6 +6,9 @@ import Pricing from './pages/Pricing';
 // OTHER PAGES
 import About from './pages/About';
 import Careers from './pages/Careers';
+import Affiliates from "./pages/Affiliates";
+import Domains from "./pages/Domains";
+import EmailMarketing from "./pages/EmailMarketing";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
@@ -13,10 +16,21 @@ function AppRoutes(){
   return (
     <Switch>
 
+      <Route path="/email-marketing">
+        <EmailMarketing />
+      </Route>
+
+      <Route path="/domains">
+        <Domains />
+      </Route>
+
+      <Route path="/affiliates">
+        <Affiliates />
+      </Route>
+
       <Route path="/careers">
         <Careers />
       </Route>
-
 
       <Route path="/about">
         <About />

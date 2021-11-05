@@ -149,10 +149,10 @@
 .about-page {
   padding: 2.75rem auto;
 }
-.about-page .about-page-header {
+.about-page .about-page-hero {
   padding: 2.75rem 0 1.25rem;
 }
-.about-page .about-page-header > p {
+.about-page .about-page-hero > p {
   padding-top: 2.35rem;
 }
 
@@ -183,10 +183,10 @@ h3 {
 .careers-page {
   padding: 2.75rem auto;
 }
-.careers-page .careers-page-header {
+.careers-page .careers-page-hero {
   padding: 2.75rem 0 1.25rem;
 }
-.careers-page .careers-page-header > p {
+.careers-page .careers-page-hero > p {
   padding-top: 2.35rem;
 }
 
@@ -211,6 +211,16 @@ h3 {
 
 h3 {
   padding: 1.75rem 0 0.5rem;
+}
+
+.affiliates-page {
+  padding: 2.75rem auto;
+}
+.affiliates-page .affiliates-page-hero {
+  padding: 2.75rem 0 1.25rem;
+}
+.affiliates-page .affiliates-page-hero > p {
+  padding-top: 2.35rem;
 }
 
 .cta {

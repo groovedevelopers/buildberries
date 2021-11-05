@@ -3,7 +3,7 @@ function CareersPage() {
 		<div className="container careers-page">
 			<div className="d-flex flex-column careers-page-body">
 			
-				<div className="d-flex flex-column careers-page-header">
+				<div className="d-flex flex-column careers-page-hero">
 					<div>
 						<h2>Come and work with us!</h2>
 						<p>Join some of our finest teams <br/>across 4 different countries</p>

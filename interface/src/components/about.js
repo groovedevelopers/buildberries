@@ -2,7 +2,7 @@ function AboutPage() {
 	return (
 		<div className="container about-page">
 			
-			<div className="d-flex flex-column about-page-header">
+			<div className="d-flex flex-column about-page-hero">
 				<div>
 					<h2>A good website makes <br/>a good business</h2>
 					<p>Lets show you why you should <br/>build here</p>

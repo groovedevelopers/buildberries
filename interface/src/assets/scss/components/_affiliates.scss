@@ -1,0 +1,13 @@
+@use 'mixins' as *;
+
+.affiliates-page {
+	padding: 2.75rem auto;
+
+	.affiliates-page-hero {
+		padding: 2.75rem 0 1.25rem;
+
+		& > p {
+			padding-top: 2.35rem;
+		}
+	}
+}
