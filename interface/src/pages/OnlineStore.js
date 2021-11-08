@@ -1,18 +1,17 @@
 import Navbar from "../components/navbar";
 import { PageHeader } from "../components/utils/pageHeader";
-import EmailMarketingPage from "../components/emailMarketingPage";
+import OnlineStorePage from "../components/onlineStorePage";
 import { Footer } from "../components/footer";
 
-const EmailMarketing = () => {
+const OnlineStore = () => {
     return (
         <>
             <Navbar />
-            <PageHeader headerTitle="Email Marketing" />
-            <EmailMarketingPage />
+            <PageHeader headerTitle="Your own online store" />
+            <OnlineStorePage />
             <Footer />
         </>
     );
 };
 
-export default EmailMarketing;
-
+export default OnlineStore;

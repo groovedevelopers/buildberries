@@ -19,8 +19,8 @@ function Footer() {
                     <h3>Domain</h3>
                     <ul>
                         <li><Link to="/domains">Domains</Link></li>
-                        <li><Link to="/web-templates">Web Templates</Link></li>
-                        <li><Link to="/online-stores">Online Stores</Link></li>
+                        <li><Link to="/templates">Web Templates</Link></li>
+                        <li><Link to="/online-store">Online Stores</Link></li>
                         <li><Link to="/point-of-sales">Point of Sales</Link></li>
                         <li><Link to="/email-marketing">Email Marketing</Link></li>
                         <li><Link to="/professional-email">Professional Email</Link></li>

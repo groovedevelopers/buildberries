@@ -9,12 +9,22 @@ import Careers from './pages/Careers';
 import Affiliates from "./pages/Affiliates";
 import Domains from "./pages/Domains";
 import EmailMarketing from "./pages/EmailMarketing";
+import OnlineStore from "./pages/OnlineStore";
+import HireExpert from "./pages/HireExpert";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 function AppRoutes(){
   return (
     <Switch>
+
+      <Route path="/hire-an-expert">
+        <HireExpert />
+      </Route>
+
+      <Route path="/online-store">
+        <OnlineStore />
+      </Route>
 
       <Route path="/email-marketing">
         <EmailMarketing />

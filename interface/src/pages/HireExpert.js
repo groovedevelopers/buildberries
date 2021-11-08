@@ -1,17 +1,17 @@
 import Navbar from '../components/navbar';
 import { PageHeader } from '../components/utils/pageHeader';
-import AffilatesPage from '../components/affiliatesPage';
+import HireExpertPage from '../components/hireExpertPage';
 import { Footer } from '../components/footer';
 
-const Affiliates = () => {
+const HireExpert = () => {
     return (
         <>
             <Navbar />
-            <PageHeader headerTitle="Become a GD Affilate" />
-            <AffilatesPage />
+            <PageHeader headerTitle="Hire a pro to handle your website" />
+            <HireExpertPage />
             <Footer />        
         </>
     );
 };
 
-export default Affiliates;
+export default HireExpert;

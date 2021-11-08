@@ -3,7 +3,7 @@ const DomainsPage = () => {
         <div className="container domains-page">
 
             <div className="search-section">
-                <h3>Search for a free<br>domain today</br></h3>
+                <h3>Search for a free domain today<br/></h3>
                 <input type="text" placeholder="Find a domain you want" />
             </div>
 
