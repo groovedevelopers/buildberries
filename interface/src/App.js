@@ -11,12 +11,32 @@ import Domains from "./pages/Domains";
 import EmailMarketing from "./pages/EmailMarketing";
 import OnlineStore from "./pages/OnlineStore";
 import HireExpert from "./pages/HireExpert";
+import NewsStand from "./pages/NewsStand";
+import HelpCenter from "./pages/HelpCenter";
+import PointOfsales from "./pages/PointOfSales";
+import Scheduling from "./pages/Scheduling";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
-function AppRoutes(){
+const AppRoutes = () => {
   return (
     <Switch>
+
+      <Route path="/scheduling">
+        <Scheduling />
+      </Route>
+
+      <Route path="/point-of-sales">
+        <PointOfsales />
+      </Route>
+
+      <Route path="/help-and-support">
+        <HelpCenter />
+      </Route>
+
+      <Route path="/gd-news-stand">
+        <NewsStand />
+      </Route>
 
       <Route path="/hire-an-expert">
         <HireExpert />
@@ -60,12 +80,13 @@ function AppRoutes(){
     </Switch>
   );
 }
-function App() {
+
+const App = () => {
   return (
     <BrowserRouter>
+      {console.log(window.location.pathname)}
       <AppRoutes />
-    </BrowserRouter>
-    
+    </BrowserRouter>    
   );
 }
 
