@@ -15,12 +15,22 @@ import NewsStand from "./pages/NewsStand";
 import HelpCenter from "./pages/HelpCenter";
 import PointOfsales from "./pages/PointOfSales";
 import Scheduling from "./pages/Scheduling";
+import CreateAcount from "./pages/CreateAccount";
+import Login from "./pages/Login";
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 
 const AppRoutes = () => {
   return (
     <Switch>
+
+      <Route path="/login">
+        <Login />
+      </Route>
+
+      <Route path="/create-account">
+        <CreateAcount />
+      </Route>
 
       <Route path="/scheduling">
         <Scheduling />

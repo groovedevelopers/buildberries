@@ -66,10 +66,10 @@ function Footer() {
                     <p>&copy; 2021 GD Groups</p>
                 </div>
                 <div>
-                    <i className=""></i>
-                    <i className=""></i>
-                    <i className=""></i>
-                    <i className=""></i>
+                    <i className="">Icon</i>
+                    <i className="">Icon</i>
+                    <i className="">Icon</i>
+                    <i className="">Icon</i>
                 </div>
             </div>
         </div>

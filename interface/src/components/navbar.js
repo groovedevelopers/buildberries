@@ -30,10 +30,10 @@ function Navbar() {
                     </ul>
                     <ul className="nav justify-content-center">
                         <li className="nav-item">
-                            <a className="nav-link" href="/">Log In</a>             
+                            <Link className="nav-link" to="/login">Log In</Link>             
                         </li>
                         <li className="nav-item">
-                            <a href="/" className="btn btn-primary btn-md" role="button" aria-pressed="true">Get Started</a>
+                            <Link to="/create-account" className="btn btn-primary btn-md" role="button" aria-pressed="true">Get Started</Link>
                         </li>
                     </ul>
                 </div>
