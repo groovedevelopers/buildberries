@@ -8,7 +8,7 @@ import { Footer } from '../components/footer';
 function Templates() {
 	return (
 		<div className="App">
-			<Navbar />
+			<Navbar isIndex="0" />
 			<TemplatesPageHeader />
 			<TemplatesDisplay />
 			<Pagination />

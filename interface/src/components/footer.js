@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
+import FooterCTAImage from '../assets/images/footer_cta_bg.png';
 
 function FooterCTA() {
     return (
-        <div className="row cta">
-            <div className="d-flex flex-column justify-content-center align-items-center">
-                <h2>Ready to create <br/> your website?</h2>
-                <button className="btn btn-lg btn-primary">Try it Now</button>
+        <div className="container-fluid cta">
+            <div className="d-flex flex-row justify-content-between">
+                <div>
+                    <h2>Ready to create <br/> your website?</h2>
+                    <button className="btn btn-lg btn-primary">Try it Now</button>
+                </div>
+                <div>
+                    <img src={FooterCTAImage} alt="background" />
+                </div>
             </div>
         </div>
     );
@@ -56,7 +62,7 @@ function Footer() {
                     </ul>
                 </div>
             </div>            
-            <div className="d-flex flex-row justify-content-center align-items-center copyright">
+            <div className="d-flex flex-row justify-content-between align-items-center copyright">
                 <div>
                     <div>
                         <Link to="/support">Support</Link>
@@ -65,11 +71,11 @@ function Footer() {
                     </div>
                     <p>&copy; 2021 GD Groups</p>
                 </div>
-                <div>
-                    <i className="">Icon</i>
-                    <i className="">Icon</i>
-                    <i className="">Icon</i>
-                    <i className="">Icon</i>
+                <div className="social-links">
+                    <Link to="https://facebook.com/"><i className="">Icon</i></Link>
+                    <Link to="https://linkedin.com/"><i className="">Icon</i></Link>
+                    <Link to="https://twitter.com/"><i className="">Icon</i></Link>
+                    <Link to="https://youtube.com/"><i className="">Icon</i></Link>
                 </div>
             </div>
         </div>

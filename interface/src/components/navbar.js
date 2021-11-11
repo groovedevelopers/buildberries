@@ -1,9 +1,9 @@
 import logo from '../assets/images/icons/gd_logo.png';
 import { Link } from 'react-router-dom';
 
-function Navbar(props) {
+const Navbar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light" { ...props.isIndex === "1" ? 'navbar-custom' : '' }>
+        <nav className="navbar navbar-expand-lg navbar-light" { ...props.isIndex === "0" ? 'navbar-custom' : '' }>
             <div className="container d-flex justify-content-around">
                 
                 <Link className="navbar-brand" to="/">
