@@ -1,5 +1,12 @@
+@use '../custom' as *;
+
 .call-to-action {
     min-height: 80vh;
+    background-image: linear-gradient(to bottom right, $primary-dark, skyblue);
+
+    h2, p {
+        color: #fff;
+    }
 
     div:first-child {
         margin: 50px 20px 0 20px;
@@ -8,11 +15,21 @@
     .text-start {
         img {
             width: 200px;
+            position: relative;
+            bottom: -22.5vh;
+            left: 0;
         }
     }
 
     .groove-icons {
-        height: 10vh;
-        background-color: gainsboro;
+        height: 20vh;
+        padding: 10px;
+        background-color: gray;
+
+        img {
+            width: 24px;
+            height: auto;
+            padding: 7px;
+        }
     }
 }

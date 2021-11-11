@@ -8,9 +8,11 @@ import { FooterCTA, Footer } from "../components/footer";
 
 function Home() {
     return (
-        <div className="App">
-            <Navbar />
-            <Hero />
+        <>
+            <div className="navbar-hero bg-image">
+                <Navbar isIndex="1" />
+                <Hero />
+            </div>
             <Products />
             <TemplatesHomeHeading />
             <TemplatesDisplay />
@@ -18,7 +20,7 @@ function Home() {
             <Testimonies />
             <FooterCTA />
             <Footer />
-        </div>
+        </>
     );
 }
 

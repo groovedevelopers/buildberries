@@ -94,7 +94,6 @@ const AppRoutes = () => {
 const App = () => {
   return (
     <BrowserRouter>
-      {console.log(window.location.pathname)}
       <AppRoutes />
     </BrowserRouter>    
   );

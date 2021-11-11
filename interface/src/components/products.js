@@ -1,17 +1,17 @@
-import phoneImage from '../assets/images/phone.jpg';
+import phoneImage from '../assets/images/home_products_phone.png';
 
 function Products(){
     return(
-        <div className="container products">
+        <div className="container bg-image products">
             <div className="d-flex flex-row justify-content-around align-items-center">
-                <div className="justify-content-center">
+                <div className="products-left-text">
                     <h2>Sell your <br/> products online.</h2>
                     <p>Our E-commerce platform<br/>helps you market your<br/>products to the right people.</p>
                 </div>
-                <div className="justify-content-center">
+                <div>
                     <img src={phoneImage} alt="Phone" className="rounded phone-image" />
                 </div>
-                <div className="justify-content-center">
+                <div>
                     <p>Try It</p>
                 </div>
             </div>

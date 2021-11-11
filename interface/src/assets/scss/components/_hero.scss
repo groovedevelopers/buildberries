@@ -1,12 +1,25 @@
 .hero {
     padding: 20vh 0 5.25rem 0;
-    min-height: 100vh;
+    height: 110vh;
 
     h2, p, button {
-        margin: 20px 0;   
+        margin: 20px 0;  
+        color: #e5e5e5; 
     }
 
     button {
         width: max-content;
+    }
+
+    &-2 {
+        padding: 10vh;
+
+        img:last-child {
+            width: 250px;
+            height: auto;
+            position: relative;
+            top: -80vh;
+            left: 100vh;
+        }
     }
 }

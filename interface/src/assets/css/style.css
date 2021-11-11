@@ -1,44 +1,107 @@
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+* {
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #2B547E;
+}
+
+.navbar {
+  background-color: transparent;
+}
+.navbar img {
+  width: 64px;
+  height: auto;
+}
+.navbar a {
+  color: #E5E5E5;
+}
+.navbar a:hover {
+  color: #cfcbcb;
+}
+.navbar button {
+  background-color: #2C75C0;
+}
+.navbar button:hover {
+  color: #E5E5E5;
+}
+.navbar-custom {
+  background-color: #2B547E;
+}
+
+.navbar-hero {
+  background-image: url("../images/hero_bg_image.png");
+  height: 150vh;
+  margin-bottom: 70vh;
+}
+
 .hero {
   padding: 20vh 0 5.25rem 0;
-  min-height: 100vh;
+  height: 110vh;
 }
 .hero h2, .hero p, .hero button {
   margin: 20px 0;
+  color: #e5e5e5;
 }
 .hero button {
   width: max-content;
 }
+.hero-2 {
+  padding: 10vh;
+}
+.hero-2 img:last-child {
+  width: 250px;
+  height: auto;
+  position: relative;
+  top: -80vh;
+  left: 100vh;
+}
 
 .products {
-  min-height: 50vh;
+  background-image: url("../images/home_products_bg.png");
+  height: 80vh;
+}
+.products h2, .products p {
+  color: #fff;
+}
+.products-left-text {
+  height: 50vh;
+  padding: 10px 35vh 0px 10vh;
+  border-right: 1px solid #fff;
 }
 .products .phone-image {
-  width: 20rem;
+  width: 45vh;
+  height: auto;
+  padding: 8vh 0 0 50px;
 }
 
 .templates-home-heading {
-  padding-top: 3.75rem;
+  padding: 2.75rem 10px 0px 2.75rem;
 }
-.templates-home-heading p:first-child {
-  padding-right: 16vh;
+.templates-home-heading h3, .templates-home-heading p, .templates-home-heading a {
+  color: #2B547E;
+  text-decoration: none;
+}
+.templates-home-heading a {
+  padding-right: 15vh;
 }
 
 .templates {
-  height: 100vh;
-  margin: 5vh auto;
-  margin-bottom: 0;
+  height: max-content;
 }
 .templates .template {
-  padding: 10px;
+  padding: 20px;
 }
 .templates .template img {
-  width: 30vh;
+  width: 50vh;
 }
 .templates span {
   display: block;
   text-align: center;
   padding-top: 5px;
+  color: #2B547E;
+  font-size: 1.25rem;
 }
 
 .templates-div {
@@ -90,16 +153,29 @@
 
 .call-to-action {
   min-height: 80vh;
+  background-image: linear-gradient(to bottom right, #2B547E, skyblue);
+}
+.call-to-action h2, .call-to-action p {
+  color: #fff;
 }
 .call-to-action div:first-child {
   margin: 50px 20px 0 20px;
 }
 .call-to-action .text-start img {
   width: 200px;
+  position: relative;
+  bottom: -22.5vh;
+  left: 0;
 }
 .call-to-action .groove-icons {
-  height: 10vh;
-  background-color: gainsboro;
+  height: 20vh;
+  padding: 10px;
+  background-color: gray;
+}
+.call-to-action .groove-icons img {
+  width: 24px;
+  height: auto;
+  padding: 7px;
 }
 
 .testimonies {
@@ -117,10 +193,6 @@
   border-radius: 32px;
   background: #e9e9e9;
   /*text-shadow: -1px -1px 2px #fff, 2px 2px 2px rgba(0, 0, 0, 0.4);*/
-}
-
-* {
-  box-sizing: border-box;
 }
 
 .pricing-page-body {

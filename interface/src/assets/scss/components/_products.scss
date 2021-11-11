@@ -1,7 +1,20 @@
 .products {
-    min-height: 50vh;
+    background-image: url('../images/home_products_bg.png');
+    height: 80vh;
+
+    h2, p {
+        color: #fff;
+    }
+
+    &-left-text {
+        height: 50vh;
+        padding: 10px 35vh 0px 10vh;
+        border-right: 1px solid #fff;
+    }
     
     .phone-image {
-        width: 20rem;
+        width: 45vh;
+        height: auto;
+        padding: 8vh 0 0 50px;
     };
 }

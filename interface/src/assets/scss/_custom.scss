@@ -5,4 +5,8 @@
 $primary-dark: #2B547E;
 $primary-light: #2C75C0;
 
+.btn-primary {
+	background-color: $primary-dark;
+}
+
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';

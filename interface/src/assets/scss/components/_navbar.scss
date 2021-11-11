@@ -1,0 +1,36 @@
+@use '../custom' as *;
+
+.navbar {
+    background-color: transparent;
+    
+	img {
+        width: 64px;
+        height: auto;
+	}
+    
+    a {
+        color: #E5E5E5;
+        
+        &:hover {
+            color: #cfcbcb;
+        }
+    }
+    
+    button {
+        background-color: $primary-light;
+        
+        &:hover {
+            color: #E5E5E5;
+        }
+    }
+    
+    &-custom {
+        background-color: #2B547E;
+    }
+}
+
+.navbar-hero {
+	background-image: url('../images/hero_bg_image.png');
+    height: 150vh;
+    margin-bottom: 70vh;
+}

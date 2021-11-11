@@ -1,17 +1,16 @@
-import logo from '../assets/images/icons/groove_logo.jpeg';
+import logo from '../assets/images/icons/gd_logo.png';
 import { Link } from 'react-router-dom';
 
-function Navbar() {
+function Navbar(props) {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light">
+        <nav className="navbar navbar-expand-lg navbar-light" { ...props.isIndex === "1" ? 'navbar-custom' : '' }>
             <div className="container d-flex justify-content-around">
                 
-                <a className="navbar-brand" href="/">
+                <Link className="navbar-brand" to="/">
                     <img src={logo} alt="Company Logo" width="42" height="42" className="d-inline-block align-text-center"/>
-                    &nbsp;Groove Developers
-                </a>
-                <div className="collapse navbar-collapse justify-content-around" id="navbarSupportedContent">
-                    <ul className="nav justify-content-center">
+                </Link>
+                <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                    <ul className="nav justify-content-between">
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page">
                                 Products
@@ -28,7 +27,7 @@ function Navbar() {
                             </Link>
                         </li>
                     </ul>
-                    <ul className="nav justify-content-center">
+                    <ul className="nav justify-content-between">
                         <li className="nav-item">
                             <Link className="nav-link" to="/login">Log In</Link>             
                         </li>

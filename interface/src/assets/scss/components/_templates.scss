@@ -1,21 +1,26 @@
-.templates-home-heading {
-    padding-top: 3.75rem;
+@use '../custom' as *;
 
-    p:first-child {
-        padding-right: 16vh;
+.templates-home-heading {
+    padding: 2.75rem 10px 0px 2.75rem;
+
+    h3, p, a {
+        color: $primary-dark;
+        text-decoration: none;
+    }
+
+    a {
+        padding-right: 15vh;
     }
 }
 
 .templates {
-    height: 100vh;
-    margin: 5vh auto;
-    margin-bottom: 0;
+    height: max-content;
 
     .template {
-        padding: 10px;
+        padding: 20px;
 
         img {
-            width: 30vh;
+            width: 50vh;
         }
 
     }
@@ -24,6 +29,8 @@
         display: block;
         text-align: center;
         padding-top: 5px;
+        color: $primary-dark;
+        font-size: 1.25rem;
     }
 }
 
