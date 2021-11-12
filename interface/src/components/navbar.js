@@ -9,7 +9,7 @@ const Navbar = (props) => {
                 <Link className="navbar-brand" to="/">
                     <img src={logo} alt="Company Logo" width="42" height="42" className="d-inline-block align-text-center"/>
                 </Link>
-                <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+                <div className="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul className="nav justify-content-between">
                         <li className="nav-item">
                             <Link to="/" className="nav-link active" aria-current="page">

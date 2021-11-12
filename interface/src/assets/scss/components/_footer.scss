@@ -47,7 +47,14 @@
         color: #fff;
     }
 
-    .social-links a {
-        padding: 5px;
+    .social-links {
+        a {
+            padding: 5px 10px;
+
+            i {
+                color: #fff;
+                font-size: 1.5rem;
+            }
+        }
     }
 }

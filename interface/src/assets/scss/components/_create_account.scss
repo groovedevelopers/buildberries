@@ -1,0 +1,77 @@
+@use '../custom' as *;
+@use './mixins' as *;
+
+.create-account-page {
+    padding: 0;
+    margin: 0;
+
+    &-left {
+        background-image: url('../images/create_account_bg.png');
+        height: 100vh;
+        padding: 12vh 10vh;
+        color: #fff;
+        border-bottom-right-radius: 50%;
+        border-right: 1rem solid rgb(217, 229, 236);
+
+        h3 {
+            padding: 7vh 0px 3vh 0px;
+        }
+
+        div:last-child {
+            padding-top: 20vh;
+
+            p {
+                padding-right: 10px;
+            }
+        }
+
+        i {
+            background-color: rgb(71, 71, 71);
+            font-size: 1.5rem;
+            padding: 10px;
+            border-radius: 50%;
+            color: #fff;
+            vertical-align: top;
+        }
+    }
+
+    &-right {
+        padding: 5vh 25vh;
+
+        h3, label {
+            color: gray;
+            display: block;
+        }
+
+        h3 {
+            padding: 10px 0px;
+        }
+
+        label {
+            padding: 1.2rem 0px 5px;
+        }
+
+        button {
+            margin: 2rem 0px;
+            width: 70vh;
+        }
+
+        input {
+            width: 70vh;
+            padding: 10px 20px;
+            border: none;
+            @include shadow;
+        }
+
+        i {
+            font-size: 1.5rem;
+            padding: 10px;
+            color: gray
+        }
+    }
+
+    img:first-child {
+        width: 72px;
+        height: auto;
+    }
+}

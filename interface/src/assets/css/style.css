@@ -1,6 +1,8 @@
 @import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .btn-primary {
@@ -84,6 +86,7 @@
   text-decoration: none;
 }
 .templates-home-heading a {
+  box-sizing: border-box;
   padding-right: 15vh;
 }
 
@@ -92,7 +95,8 @@
   margin-bottom: 12vh;
 }
 .templates .template {
-  padding: 20px;
+  padding: 20px 0px;
+  margin: 0px;
 }
 .templates .template img {
   width: 50vh;
@@ -199,11 +203,18 @@
   border-radius: 32px;
   margin: 10vh 0;
 }
+.testimonies .testimony i {
+  display: block;
+  font-size: 1.5rem;
+  color: #2B547E;
+  padding-right: 5px;
+}
 .testimonies .testimony p {
   font-size: 1rem;
   color: gray;
-  padding: 10px 20px;
-  margin: 2vh 30px 10vh 30px;
+  padding: 0px 20px 10px;
+  margin: 2vh 30px 13vh 30px;
+  line-height: 1.5rem;
 }
 .testimonies .testimony img {
   width: 12vh;
@@ -312,6 +323,130 @@ h3 {
   padding-top: 2.35rem;
 }
 
+.create-account-page {
+  padding: 0;
+  margin: 0;
+}
+.create-account-page-left {
+  background-image: url("../images/create_account_bg.png");
+  height: 100vh;
+  padding: 12vh 10vh;
+  color: #fff;
+  border-bottom-right-radius: 50%;
+  border-right: 1rem solid #d9e5ec;
+}
+.create-account-page-left h3 {
+  padding: 7vh 0px 3vh 0px;
+}
+.create-account-page-left div:last-child {
+  padding-top: 20vh;
+}
+.create-account-page-left div:last-child p {
+  padding-right: 10px;
+}
+.create-account-page-left i {
+  background-color: #474747;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  vertical-align: top;
+}
+.create-account-page-right {
+  padding: 5vh 25vh;
+}
+.create-account-page-right h3, .create-account-page-right label {
+  color: gray;
+  display: block;
+}
+.create-account-page-right h3 {
+  padding: 10px 0px;
+}
+.create-account-page-right label {
+  padding: 1.2rem 0px 5px;
+}
+.create-account-page-right button {
+  margin: 2rem 0px;
+  width: 70vh;
+}
+.create-account-page-right input {
+  width: 70vh;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.create-account-page-right i {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: gray;
+}
+.create-account-page img:first-child {
+  width: 72px;
+  height: auto;
+}
+
+.login-page {
+  padding: 0;
+  margin: 0;
+}
+.login-page-left {
+  background-image: url("../images/login_bg.png");
+  height: 100vh;
+  padding: 12vh 10vh;
+  color: #fff;
+  border-bottom-right-radius: 50%;
+  border-right: 1rem solid #d9e5ec;
+}
+.login-page-left h3 {
+  padding: 7vh 0px 3vh 0px;
+}
+.login-page-left div:last-child {
+  padding-top: 20vh;
+}
+.login-page-left div:last-child p {
+  padding-right: 20px;
+}
+.login-page-left i {
+  background-color: #474747;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: #fff;
+  vertical-align: top;
+}
+.login-page-right {
+  padding: 5vh 25vh;
+}
+.login-page-right h3, .login-page-right label {
+  color: gray;
+  display: block;
+}
+.login-page-right h3 {
+  padding: 1.2rem 0px;
+}
+.login-page-right label {
+  padding: 1rem 0px;
+}
+.login-page-right button {
+  margin: 3rem 0px;
+  width: 70vh;
+}
+.login-page-right input {
+  width: 70vh;
+  padding: 10px 20px;
+  border: none;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.login-page-right i {
+  font-size: 1.5rem;
+  padding: 10px;
+  color: gray;
+}
+.login-page img:first-child {
+  width: 72px;
+  height: auto;
+}
+
 .cta {
   padding: 8rem 0px 3rem 5rem;
   margin: 0;
@@ -354,7 +489,11 @@ h3 {
   color: #fff;
 }
 .footer .social-links a {
-  padding: 5px;
+  padding: 5px 10px;
+}
+.footer .social-links a i {
+  color: #fff;
+  font-size: 1.5rem;
 }
 
 .page-header {

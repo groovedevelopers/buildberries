@@ -72,10 +72,10 @@ function Footer() {
                     <p>&copy; 2021 GD Groups</p>
                 </div>
                 <div className="social-links">
-                    <Link to="https://facebook.com/"><i className="">Icon</i></Link>
-                    <Link to="https://linkedin.com/"><i className="">Icon</i></Link>
-                    <Link to="https://twitter.com/"><i className="">Icon</i></Link>
-                    <Link to="https://youtube.com/"><i className="">Icon</i></Link>
+                    <a href="https://www.facebook.com/" target="_blank" rel="noreferrer"><i className="fa fa-facebook"></i></a>
+                    <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer"><i className="fa fa-linkedin"></i></a>
+                    <a href="https://www.twitter.com/" target="_blank" rel="noreferrer"><i className="fa fa-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer"><i className="fa fa-youtube"></i></a>
                 </div>
             </div>
         </div>

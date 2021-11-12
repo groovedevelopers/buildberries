@@ -9,6 +9,7 @@
     }
 
     a {
+        box-sizing: border-box;
         padding-right: 15vh;
     }
 }
@@ -18,7 +19,8 @@
     margin-bottom: 12vh;
 
     .template {
-        padding: 20px;
+        padding: 20px 0px;
+        margin: 0px;
 
         img {
             width: 50vh;

@@ -7,7 +7,7 @@ const Testimonies = () => {
             <div className="testimony">
                 <img src={TestimonyPic} alt="customer testimony" />
                 <p>
-                    GD has helped my business
+                    <i className="fa fa-quote-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;GD has helped my business
                     grow tremedously over the last
                     few weeks of use. I have access
                     to customer analysis like never
