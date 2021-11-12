@@ -1,10 +1,10 @@
 const PricingBody = () => {
 	return (
 		<div className="container pricing-page-body">
-			<h5 className="text-primary">Theres a plan for every business</h5>
+			<h5>Theres a plan for every business</h5>
 			<div className="d-flex flex-row justify-content-between">
 				<div className="pricing-div">
-					<i></i>
+					<div><div></div></div>
 					<h4>Basic</h4>
 					<ul>
 						<li>Create unlimited</li>
@@ -15,7 +15,9 @@ const PricingBody = () => {
 					<button className="btn btn-lg btn-primary">Choose this plan</button>
 				</div>
 				<div className="pricing-div">
-					<i></i>
+					<div>
+						<div className="second"></div>
+					</div>
 					<span>Popular</span>
 					<h4>Premium</h4>
 					<ul>
@@ -29,10 +31,12 @@ const PricingBody = () => {
 					<button className="btn btn-lg btn-primary">Choose this plan</button>
 				</div>
 				<div className="pricing-div">
-					<i></i>
+					<div>
+						<div className="third"></div>
+					</div>
 					<h4>Regular</h4>
 					<ul>
-						<li>Billed yearly @ $1 2 /month</li>
+						<li>Billed yearly @ $12/month</li>
 						<li>Import PioSolver Ranges</li>
 						<li>Create unlimited ranges</li>
 						<li>Weighted ranges</li>

@@ -3,7 +3,7 @@ function TemplatesPageHeader() {
 		<div className="container templates-div">
 			<div className="d-flex flex-row justify-content-between page-header">
 				<h4>Pick a template you love</h4>
-				<input type="text" placeholder="Search templates" />
+				<input type="text" placeholder="Search templates" className="form-control" />
 			</div>
 			<div className="dropdown-menus d-flex flex-row justify-content-start">
 				<div class="dropdown">
@@ -48,13 +48,13 @@ function TemplatesPageHeader() {
 				</div>
 			</div>
 
-			<div className="d-flex flex-column">
-				<h4>Build a website</h4>
-				<div className="d-flex flex-row">
-					<button className="btn btn-default">All</button>
-					<button className="btn btn-default">Consultancy</button>
-					<button className="btn btn-default">Business Management</button>
-					{/*<button className="btn btn-default"></button>*/}
+			<div className="d-flex flex-column filter">
+				<h5>Build a website</h5>
+				<div className="d-flex flex-row filter-options">
+					<span className="active">All</span>
+					<span>Consultancy</span>
+					<span>Business Management</span>
+					<span>Office Administration</span>
 				</div>	
 			</div>
 				

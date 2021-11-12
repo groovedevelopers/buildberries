@@ -7,7 +7,7 @@ import { Footer } from '../components/footer';
 function Pricing() {
 	return (
 		<>
-			<Navbar />
+			<Navbar isIndex="0" />
 			<PageHeader headerTitle="Pick a package that suits you" />
 			<PricingBody />
 			<HelpChoose choiceTitle="payment plan" />

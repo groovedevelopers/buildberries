@@ -5,6 +5,10 @@
   margin: 0;
 }
 
+.btn {
+  border: none !important;
+}
+
 .btn-primary {
   background-color: #2B547E;
 }
@@ -87,7 +91,6 @@
 }
 .templates-home-heading a {
   box-sizing: border-box;
-  padding-right: 15vh;
 }
 
 .templates {
@@ -111,29 +114,51 @@
 
 .templates-div {
   padding: 0px;
-  /*.templates-header {
-      padding: 1.25rem 0;
-      border-bottom: 1px solid #dfdfdf;
-  }*/
 }
 .templates-div input[type=text] {
   width: 40vh;
-  padding: 3px 10px;
+  padding: 3px 20px;
   border: none;
   box-shadow: 1px 1px 10px 2px #dfdfdf;
-  text-align: center;
   border-radius: 5px;
 }
+.templates-div .dropdown-menus {
+  padding: 15px 0px 0px;
+  border-bottom: 1px solid #dfdfdf;
+}
 .templates-div .dropdown {
-  padding: 1.25rem;
   margin-right: 2rem;
+  color: #2B547E;
+  cursor: pointer;
+}
+.templates-div .filter {
+  padding: 20px 0px;
+}
+.templates-div .filter h5 {
+  color: #2B547E;
+}
+.templates-div .filter-options {
+  padding: 5px 0px;
+}
+.templates-div .filter-options span {
+  font-size: 12px;
+  margin-right: 10px;
+  padding: 2px 10px;
+  border: 1px solid #2C75C0;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.templates-div .filter-options .active {
+  border: none;
+  background-color: #e98293;
+  color: #fff;
 }
 
 .pagination {
   padding-bottom: 10vh;
 }
 .pagination ul {
-  padding: 10px 20px 20px 0;
+  padding: 10px 10px 20px 0;
   margin: 0 auto;
 }
 .pagination ul li {
@@ -142,18 +167,14 @@
 }
 .pagination ul li a {
   text-decoration: none;
-  color: #000;
+  color: #2B547E;
 }
 .pagination ul li a:hover {
   color: #bbb;
 }
 
 .templates-help {
-  min-height: 50vh;
-  padding: 20vh;
-}
-.templates-help .btn {
-  margin-top: 3.75rem;
+  background-image: url("../images/templates_page_cta.png");
 }
 
 .call-to-action {
@@ -225,21 +246,48 @@
 
 .pricing-page-body {
   min-height: 90vh;
-  margin: 10vh auto;
+  margin: 10vh auto 30vh;
 }
-.pricing-page-body h4 {
+.pricing-page-body h5 {
   margin-bottom: 3.25rem;
+  color: #2B547E;
 }
 .pricing-page-body .pricing-div {
   width: 50vh;
-  height: 70vh;
+  height: 80vh;
   box-sizing: border-box;
-  padding: 2.25rem;
+  padding: 5rem 2.25rem;
   box-shadow: 5px 10px 20px #dfdfdf;
   border-radius: 10px;
   position: relative;
+  color: #5c5c5c;
+}
+.pricing-page-body .pricing-div div {
+  width: 50px;
+  height: 50px;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  margin-bottom: 5vh;
+}
+.pricing-page-body .pricing-div div div {
+  width: 20px;
+  height: 20px;
+  background-color: #2B547E;
+  position: relative;
+  top: 15px;
+  left: 15px;
+}
+.pricing-page-body .pricing-div div .second {
+  background-color: #ff5656;
+}
+.pricing-page-body .pricing-div div .third {
+  background-color: #ca00ca;
+}
+.pricing-page-body .pricing-div li {
+  color: gray;
 }
 .pricing-page-body .pricing-div .btn {
+  background: linear-gradient(to right, rgba(43, 84, 126, 0.95), rgba(44, 117, 192, 0.95));
   width: 80%;
   position: absolute;
   bottom: 20px;
@@ -503,6 +551,18 @@ h3 {
 }
 .page-header h4 {
   padding-top: 0.5rem;
+  color: #2B547E;
+}
+
+.page-bottom-help {
+  height: 60vh;
+  padding: 20vh 10vh;
+  color: #fff;
+  border-top-right-radius: 10%;
+}
+.page-bottom-help .btn {
+  margin-top: 3.75rem;
+  background-color: #2B547E;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -7,7 +7,7 @@ import templateImage5 from '../assets/images/template-5.png';
 
 function TemplatesHomeHeading() {
     return (
-        <div className="templates-home-heading">
+        <div className="container templates-home-heading">
             <div className="row text-center">
                 <h3>Professionally designed templates</h3>
                 <p>Choose from oveer 5000 professional templates and give your website a great look</p>
@@ -22,7 +22,7 @@ function TemplatesHomeHeading() {
 function TemplatesDisplay(){
     return(
         <div className="container templates">
-            <div className="d-flex flex-row justify-content-around">
+            <div className="d-flex flex-row justify-content-between">
                 <div className="justify-content-center template">
                     <img src={templateImage1} alt="" />
                     <span>Online Store</span>
@@ -36,7 +36,7 @@ function TemplatesDisplay(){
                     <span>Design</span>
                 </div>
             </div>
-            <div className="d-flex flex-row justify-content-around">
+            <div className="d-flex flex-row justify-content-between">
                 <div className="justify-content-center template">
                     <img src={templateImage4} alt="" />
                     <span>Education</span>

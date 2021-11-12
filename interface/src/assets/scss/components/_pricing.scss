@@ -1,23 +1,57 @@
 @use 'mixins' as *;
+@use '../custom' as *;
 
 .pricing-page-body {
 	min-height: 90vh;
-	margin: 10vh auto;
+	margin: 10vh auto 30vh;
 
-	h4 {
+	h5 {
 		margin-bottom: 3.25rem;
+		color: $primary-dark;
 	}
 
 	.pricing-div {
 		width: 50vh;
-		height: 70vh;
+		height: 80vh;
 		box-sizing: border-box;
-		padding: 2.25rem;
+		padding: 5rem 2.25rem;
 		box-shadow: 5px 10px 20px #dfdfdf;
 		border-radius: 10px;
 		position: relative;
+		color: #5c5c5c;
+
+		div {
+			width: 50px;
+			height: 50px;
+			background-color: rgb(245, 245, 245);
+			border-radius: 50%;
+			margin-bottom: 5vh;
+
+			div {
+				width: 20px;
+				height: 20px;
+				background-color: $primary-dark;
+				position: relative;
+				top: 15px;
+				left: 15px;
+			}
+
+			.second {
+				background-color: rgb(255, 86, 86);
+			}
+
+			.third {
+				background-color: rgb(202, 0, 202);
+			}
+
+		}
+		
+		li {
+			color: gray;
+		}
 
 		.btn {
+			@include gradient;
 			width: 80%;
 			position: absolute;
 			bottom: 20px;

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light" { ...props.isIndex === "0" ? 'navbar-custom' : '' }>
+        <nav className={ props.isIndex === "0" ? "navbar navbar-expand-lg navbar-light navbar-custom" : "navbar navbar-expand-lg navbar-light" }>
             <div className="container d-flex justify-content-around">
                 
                 <Link className="navbar-brand" to="/">
@@ -32,7 +32,14 @@ const Navbar = (props) => {
                             <Link className="nav-link" to="/login">Log In</Link>             
                         </li>
                         <li className="nav-item">
+                            {
+                            props.isIndex === "1" && 
                             <Link to="/create-account" className="btn btn-primary btn-md" role="button" aria-pressed="true">Get Started</Link>
+                            }
+                            {
+                            props.isIndex === "0" && 
+                            <Link className="nav-link" to="/create-account">Get Started</Link>
+                            }
                         </li>
                     </ul>
                 </div>
