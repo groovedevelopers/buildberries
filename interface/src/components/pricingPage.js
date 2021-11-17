@@ -7,7 +7,7 @@ const PricingBody = () => {
 					<div><div></div></div>
 					<h4>Basic</h4>
 					<ul>
-						<li>Create unlimited</li>
+						<li>{/*<i className="fa fa-plus"></i>*/}Create unlimited</li>
 						<li>Free templates</li>
 						<li>Free sign up</li>
 						<li>Cancel anytime</li>

@@ -1,16 +1,18 @@
-function CareersPage() {
-	return (
-		<div className="container careers-page">
-			<div className="d-flex flex-column careers-page-body">
-			
-				<div className="d-flex flex-column careers-page-hero">
-					<div>
-						<h2>Come and work with us!</h2>
-						<p>Join some of our finest teams <br/>across 4 different countries</p>
-						<button className="btn btn-lg btn-primary">See Available Positions</button>
-					</div>
-				</div>
+import EmployeePhoto1 from '../assets/images/employee-1.png';
 
+const CareersPage = () => {
+	return (
+		<div className="container careers-page">		
+			
+			<div className="d-flex flex-column bg-image careers-page-hero">
+				<div>
+					<h2>Come and work with us!</h2>
+					<p>Join some of our finest teams <br/>across 4 different countries</p>
+					<button className="btn btn-lg btn-primary">See Available Positions</button>
+				</div>
+			</div>
+
+			<div className="d-flex flex-column careers-page-body">
 				<div>
 					<h3>Our mission</h3>
 					<p>
@@ -45,11 +47,13 @@ function CareersPage() {
 
 				<div className="row from-employees">
 					<div className="col-md-4">
+						<img src={EmployeePhoto1} alt="Employee" />
 						<p>Ire Falowo</p>
-						<p>Research and analytics</p>
+						<span>Research and analytics</span>
 					</div>
 					<div className="col-md-8">
-						<p>
+						<p className="justify-content-center aligh-items-center quote">
+							<i className="fa fa-quote-left"></i>&nbsp;&nbsp;&nbsp;&nbsp;
 							I t has been an amazing experience for my career to
 							work with the GD team. Here we pay incredible
 							attention to detail as well as making sure that all
@@ -59,7 +63,7 @@ function CareersPage() {
 					</div>
 				</div>
 
-				<div className="d-flex flex-row justify-content-between inform-form">
+				<div className="d-flex flex-row justify-content-around bg-image inform-form">
 					<div>
 						<h4>
 							Let us inform you once<br/>
@@ -71,7 +75,7 @@ function CareersPage() {
 					<div>
 						<form action="/" className="d-flex flex-column justify-content-around">
 							<input type="text" placeholder="Email" className="form-control" />
-							<textarea name="" id="" cols="30" rows="4" placeholder="Message"></textarea>
+							<textarea name="" id="" cols="30" rows="2" placeholder="Message"></textarea>
 							<button className="btn btn-lg btn-primary">Proceed</button>
 						</form>
 					</div>

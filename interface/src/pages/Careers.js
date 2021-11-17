@@ -8,7 +8,7 @@ import { Footer } from '../components/footer';
 const Careers = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Careers" />
             <CareersPage />
             <Footer />

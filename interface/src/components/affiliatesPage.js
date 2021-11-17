@@ -2,7 +2,7 @@ const AffilatesPage = () => {
     return (
         <div className="container affilates-page">
 
-            <div className="d-flex flex-column affiliates-page-hero">
+            <div className="d-flex flex-column bg-image affiliates-page-hero">
 				<div>
 					<h2>Make money promoting <br/>us today</h2>
 					<p>Lets show you why you should <br/>promote us</p>
@@ -14,35 +14,36 @@ const AffilatesPage = () => {
                 <div>
                     <h3>How it works</h3>
                     <div>
-                    <   div className="row">
-                            <div className="col-md-4">
+                    	<div className="row">
+                            <div className="col-md-4 hiw-item">
                                 <h6>Register with us</h6>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 hiw-item">
                                 <h6>Promote GD</h6>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 hiw-item">
                                 <h6>Earn cool bucks</h6>
                             </div>
                         </div>
                         <div className="row">
-                            <div className="col-md-4">
+                            <div className="col-md-4 hiw-item">
                                 <h6>Monitor analytics</h6>
                             </div>
-                            <div className="col-md-4">
+                            <div className="col-md-4 hiw-item">
                                 <h6>Record business metrics</h6>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <div>
+                <div className="offer">
                     <h3>We offer you</h3>
                     <div className="accordion accordion-flush" id="accordionFlushExample">
 					  <div className="accordion-item">
 					    <h2 className="accordion-header" id="flush-headingOne">
 					      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                          $100 Per conversion
+                          <i className="fa fa-arrow"></i>
+						  $100 Per conversion
 					      </button>
 					    </h2>
 					    <div id="flush-collapseOne" className="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
@@ -82,7 +83,7 @@ const AffilatesPage = () => {
 					</div>
                 </div>
 
-                <div className="d-flex flex-row justify-content-between become-affiliates">
+                <div className="d-flex flex-row justify-content-between align-items-center become-affiliates">
 					<div>
 						<h4>
                             Get started being a GD<br/>

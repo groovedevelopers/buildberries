@@ -1,9 +1,11 @@
-function AboutPage() {
+import TeamPhoto1 from '../assets/images/team-1.png';
+
+const AboutPage = () => {
 	return (
 		<div className="container about-page">
 			
-			<div className="d-flex flex-column about-page-hero">
-				<div>
+			<div className="d-flex flex-column about-page-heading">
+				<div className="about-page-hero bg-image">
 					<h2>A good website makes <br/>a good business</h2>
 					<p>Lets show you why you should <br/>build here</p>
 				</div>
@@ -35,22 +37,27 @@ function AboutPage() {
 					<h3>Our team</h3>
 					<div className="d-flex flex-row text-center">
 						<div className="team-member">
+							<img src={TeamPhoto1} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
+							<img src={TeamPhoto1} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
+							<img src={TeamPhoto1} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
+							<img src={TeamPhoto1} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
+							<img src={TeamPhoto1} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
@@ -91,19 +98,19 @@ function AboutPage() {
 					    </div>
 					  </div>					  
 					  <div className="accordion-item">
-					    <h2 className="accordion-header" id="flush-headingThree">
-					      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+					    <h2 className="accordion-header" id="flush-headingFour">
+					      <button className="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
 					        Will I surely sell my products?
 					      </button>
 					    </h2>
-					    <div id="flush-collapseThree" className="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+					    <div id="flush-collapseFour" className="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushExample">
 					      <div className="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
 					    </div>
 					  </div>
 					</div>
 				</div>
 
-				<div className="d-flex flex-row justify-content-around statistics">
+				<div className="d-flex flex-row justify-content-around align-items-center statistics">
 					<div className="statistics-item">
 						<h1>770K+</h1>
 						<p>Designed websites</p>
@@ -118,7 +125,7 @@ function AboutPage() {
 					</div>
 				</div>
 
-				<div>
+				<div className="privacy-policy">
 					<h3>Privacy Policy</h3>
 					<p>
 						Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
@@ -134,7 +141,7 @@ function AboutPage() {
 					</p>	
 				</div>
 
-				<div>
+				<div className="terms">
 					<h3>Terms of Service</h3>
 					<p>
 						Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt

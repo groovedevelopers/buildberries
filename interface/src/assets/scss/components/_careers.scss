@@ -1,26 +1,64 @@
 @use 'mixins' as *;
+@use '../custom' as *;
 
 .careers-page {
-	padding: 2.75rem auto;
+	padding: 0px;
+	margin-bottom: 0px;
 
 	.careers-page-hero {
 		padding: 2.75rem 0 1.25rem;
+		background-image: url('../images/careers_heading_bg.png');
+		height: 50vh;
+		width: 80%;
+		border-bottom-right-radius: 20%;
+		color: #fff;
+		padding: 3.5rem 5.25rem;
 
 		& > p {
 			padding-top: 2.35rem;
+		}
+
+		button {
+			margin-top: 2.5rem;
 		}
 	}
 }
 
 .careers-page-body {
-	padding-bottom: 3.75rem;
+	color: $primary-dark;
+	padding: 2.5rem 0px 1.75rem;
 
 	.from-employees {
 		padding: 5.25rem 0;
+
+		img {
+			width: 210px;
+			height: relative;
+		}
+
+		p {
+			margin: 10px 0 0;
+			padding: 10px 0 0;
+			color: rgb(54, 54, 54);
+		}
+
+		span {
+			padding-top: 5px;
+			color: gray;
+		}
+
+		.quote {
+			padding: 2rem 2.5rem 2rem 0;
+			font-size: large;
+			color: rgb(95, 95, 95);
+		}
 	}
 
 	.inform-form {
-		padding: 5.75rem 0;
+		background-image: url('../images/careers_footer_bg.png');
+		height: 60vh;
+		padding: 3.75rem 1rem;
+		color: #fff;
 
 		input {
 			margin: 0.5rem 0;
@@ -28,6 +66,8 @@
 
 		textarea {
 			margin: 0.5rem 0;
+			resize: none;
+			padding: 10px;
 		}
 
 		.btn {

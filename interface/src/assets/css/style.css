@@ -295,33 +295,81 @@
 }
 
 .about-page {
-  padding: 2.75rem auto;
+  padding: 0px 0px 3.75rem;
 }
-.about-page .about-page-hero {
-  padding: 2.75rem 0 1.25rem;
+.about-page .about-page-heading {
+  padding: 0px 0 1.25rem;
 }
-.about-page .about-page-hero > p {
+.about-page .about-page-heading .about-page-hero {
+  background-image: url("../images/about_heading_bg.png");
+  height: 50vh;
+  width: 80%;
+  border-bottom-right-radius: 20%;
+  color: #fff;
+  padding: 3.5rem 5.25rem;
+}
+.about-page .about-page-heading .about-page-hero p {
+  padding-top: 1.25rem;
+}
+.about-page .about-page-heading > p {
   padding-top: 2.35rem;
+  color: #2B547E;
 }
 
+.about-page-body {
+  color: #2B547E;
+}
 .about-page-body .team {
+  margin: 10vh 0px;
   padding: 10px 0;
-  height: 25vh;
+  height: 50vh;
 }
 .about-page-body .team .team-member {
-  width: 20vh;
+  width: 30vh;
+  height: 35vh;
   margin-right: 1.5rem;
   padding: 1vh 0.25rem;
-  box-shadow: 1px 1px 3px 3px #b7b7b7;
+}
+.about-page-body .team .team-member img {
+  width: 20vh;
+  height: auto;
+  margin: 10px auto;
 }
 .about-page-body .team .team-member p {
   margin-bottom: 0;
 }
+.about-page-body .team .team-member span {
+  color: gray;
+}
 .about-page-body .questions-section {
-  padding: 3.75rem 0;
+  height: 90vh;
+  width: 100%;
+  padding: 3.75rem 0rem;
+}
+.about-page-body .questions-section .accordion-item {
+  border-bottom: none;
 }
 .about-page-body .questions-section .accordion-button {
   padding-left: 0;
+  margin: 20px 0px;
+  border: none;
+  color: #2B547E;
+}
+.about-page-body .statistics {
+  height: 40vh;
+  color: gray;
+}
+.about-page-body .statistics h1 {
+  font-size: 5rem;
+}
+.about-page-body .statistics p {
+  font-size: 1.2rem;
+}
+.about-page-body .privacy-policy, .about-page-body .terms {
+  padding: 5vh 0px;
+}
+.about-page-body .privacy-policy h3, .about-page-body .terms h3 {
+  padding-bottom: 2rem;
 }
 
 h3 {
@@ -329,29 +377,63 @@ h3 {
 }
 
 .careers-page {
-  padding: 2.75rem auto;
+  padding: 0px;
+  margin-bottom: 0px;
 }
 .careers-page .careers-page-hero {
   padding: 2.75rem 0 1.25rem;
+  background-image: url("../images/careers_heading_bg.png");
+  height: 50vh;
+  width: 80%;
+  border-bottom-right-radius: 20%;
+  color: #fff;
+  padding: 3.5rem 5.25rem;
 }
 .careers-page .careers-page-hero > p {
   padding-top: 2.35rem;
 }
+.careers-page .careers-page-hero button {
+  margin-top: 2.5rem;
+}
 
 .careers-page-body {
-  padding-bottom: 3.75rem;
+  color: #2B547E;
+  padding: 2.5rem 0px 1.75rem;
 }
 .careers-page-body .from-employees {
   padding: 5.25rem 0;
 }
+.careers-page-body .from-employees img {
+  width: 210px;
+  height: relative;
+}
+.careers-page-body .from-employees p {
+  margin: 10px 0 0;
+  padding: 10px 0 0;
+  color: #363636;
+}
+.careers-page-body .from-employees span {
+  padding-top: 5px;
+  color: gray;
+}
+.careers-page-body .from-employees .quote {
+  padding: 2rem 2.5rem 2rem 0;
+  font-size: large;
+  color: #5f5f5f;
+}
 .careers-page-body .inform-form {
-  padding: 5.75rem 0;
+  background-image: url("../images/careers_footer_bg.png");
+  height: 60vh;
+  padding: 3.75rem 1rem;
+  color: #fff;
 }
 .careers-page-body .inform-form input {
   margin: 0.5rem 0;
 }
 .careers-page-body .inform-form textarea {
   margin: 0.5rem 0;
+  resize: none;
+  padding: 10px;
 }
 .careers-page-body .inform-form .btn {
   margin: 0.5rem 0;
@@ -364,11 +446,45 @@ h3 {
 .affiliates-page {
   padding: 2.75rem auto;
 }
-.affiliates-page .affiliates-page-hero {
-  padding: 2.75rem 0 1.25rem;
+.affiliates-page-hero {
+  background-image: url("../images/affiliate_heading_bg.png");
+  height: 50vh;
+  width: 80%;
+  border-bottom-right-radius: 20%;
+  color: #fff;
+  padding: 3.5rem 5.25rem;
 }
-.affiliates-page .affiliates-page-hero > p {
+.affiliates-page-hero > p {
   padding-top: 2.35rem;
+}
+.affiliates-page-hero button {
+  margin-top: 1.5rem;
+}
+.affiliates-page-body {
+  color: #2B547E;
+  padding: 2.5rem 0px 1.75rem;
+}
+.affiliates-page-body .offer {
+  min-height: 100vh;
+  padding: 5.25rem 0rem;
+}
+.affiliates-page-body .offer h3 {
+  padding-bottom: 2.5rem;
+}
+.affiliates-page-body .offer .accordion-item {
+  border-bottom: none;
+}
+.affiliates-page-body .offer .accordion-button {
+  padding-left: 0;
+  margin: 20px 0px;
+  border: none;
+  color: #2B547E;
+}
+.affiliates-page-body .become-affiliates {
+  background-image: url("../images/affiliates_footer_bg.png");
+  height: 40vh;
+  padding: 3.75rem 5.5rem;
+  color: #fff;
 }
 
 .create-account-page {

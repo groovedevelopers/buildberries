@@ -6,7 +6,7 @@ import { Footer } from '../components/footer';
 const Affiliates = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Become a GD Affilate" />
             <AffilatesPage />
             <Footer />        

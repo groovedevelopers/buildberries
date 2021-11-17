@@ -5,10 +5,10 @@ import AboutPage from '../components/about';
 import { Footer } from '../components/footer';
 
 
-function About() {
+const About = () => {
 	return (
 		<>
-			<Navbar />
+			<Navbar isIndex="0" />
 			<PageHeader headerTitle="About" />
 			<AboutPage />
 			<Footer />

@@ -1,41 +1,97 @@
 @use 'mixins' as *;
+@use '../custom' as *;
 
 .about-page {
-	padding: 2.75rem auto;
+	padding: 0px 0px 3.75rem;
 
-	.about-page-hero {
-		padding: 2.75rem 0 1.25rem;
+	.about-page-heading {
+		padding: 0px 0 1.25rem;
+
+		.about-page-hero {
+			background-image: url('../images/about_heading_bg.png');
+			height: 50vh;
+			width: 80%;
+			border-bottom-right-radius: 20%;
+			color: #fff;
+			padding: 3.5rem 5.25rem;
+
+			p {
+				padding-top: 1.25rem;
+			}
+		}
 
 		& > p {
 			padding-top: 2.35rem;
+			color: $primary-dark;
 		}
 	}
 }
 
 .about-page-body {
+	color: $primary-dark;
 
 	.team {
-		
+		margin: 10vh 0px;
 		padding: 10px 0;
-		height: 25vh;
+		height: 50vh;
 
 		.team-member {
-			width: 20vh;
+			width: 30vh;
+			height: 35vh;
 			margin-right: 1.5rem;
 			padding: 1vh 0.25rem;
-			box-shadow: 1px 1px 3px 3px #b7b7b7;
+
+			img {
+				width: 20vh;
+				height: auto;
+				margin: 10px auto;
+			}
 
 			p {
 				margin-bottom: 0;
+			}
+
+			span {
+				color: gray;
 			}
 		}
 	}
 
 	.questions-section {
-		padding: 3.75rem 0;
+		height: 90vh;
+		width: 100%;
+		padding: 3.75rem 0rem;
+
+		.accordion-item {
+			border-bottom: none;
+		}
 
 		.accordion-button {
 			padding-left: 0;
+			margin: 20px 0px;
+			border: none;
+			color: $primary-dark;
+		}
+	}
+
+	.statistics {
+		height: 40vh;
+		color: gray;
+
+		h1 {
+			font-size: 5rem;
+		}
+
+		p {
+			font-size: 1.2rem;
+		}
+	}
+
+	.privacy-policy, .terms {
+		padding: 5vh 0px;
+
+		h3 {
+			padding-bottom: 2rem;
 		}
 	}
 }
