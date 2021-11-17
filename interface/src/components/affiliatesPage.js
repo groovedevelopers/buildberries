@@ -1,6 +1,7 @@
 const AffilatesPage = () => {
     return (
-        <div className="container affilates-page">
+		<>
+        <div className="container-fluid affilates-page affiliates-page-head">
 
             <div className="d-flex flex-column bg-image affiliates-page-hero">
 				<div>
@@ -9,27 +10,33 @@ const AffilatesPage = () => {
 					<button className="btn btn-lg btn-primary">See Available Positions</button>
 				</div>
             </div>
-
+		</div>
+		<div className="container affilates-page">
             <div className="d-flex flex-column affiliates-page-body">
                 <div>
                     <h3>How it works</h3>
                     <div>
                     	<div className="row">
                             <div className="col-md-4 hiw-item">
+								<i className="fa fa-laptop one"></i>
                                 <h6>Register with us</h6>
                             </div>
                             <div className="col-md-4 hiw-item">
+								<i class="fa fa-money two"></i>
                                 <h6>Promote GD</h6>
                             </div>
                             <div className="col-md-4 hiw-item">
+								<i className="fa fa-money three"></i>
                                 <h6>Earn cool bucks</h6>
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-4 hiw-item">
+								<i className="fa fa-money four"></i>
                                 <h6>Monitor analytics</h6>
                             </div>
                             <div className="col-md-4 hiw-item">
+								<i className="fa fa-money five"></i>
                                 <h6>Record business metrics</h6>
                             </div>
                         </div>
@@ -82,25 +89,23 @@ const AffilatesPage = () => {
 					  </div>
 					</div>
                 </div>
-
-                <div className="d-flex flex-row justify-content-between align-items-center become-affiliates">
-					<div>
-						<h4>
-                            Get started being a GD<br/>
-							affiliate today
-						</h4>		
-						<p>Earn money just promoting GD
-                            products across the globe,
-                            nothing more.</p>	
-					</div>
-					<div>
-						<button className="btn btn-lg btn-primary">Become an Affiliate</button>
-					</div>
-				</div>
-
             </div>
-
         </div>
+		<div className="d-flex flex-row justify-content-between align-items-center become-affiliates">
+			<div>
+				<h4>
+					Get started being a GD<br/>
+					affiliate today
+				</h4>		
+				<p>Earn money just promoting GD
+					products across the globe,
+					nothing more.</p>	
+			</div>
+			<div>
+				<button className="btn btn-lg btn-primary">Become an Affiliate</button>
+			</div>
+		</div>
+		</>
     );
 };
 

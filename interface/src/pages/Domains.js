@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const Domains = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Domains" />
             <DomainsPage />
             <Footer />

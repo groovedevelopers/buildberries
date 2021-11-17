@@ -2,7 +2,8 @@ import EmployeePhoto1 from '../assets/images/employee-1.png';
 
 const CareersPage = () => {
 	return (
-		<div className="container careers-page">		
+		<>
+		<div className="container-fluid careers-page">		
 			
 			<div className="d-flex flex-column bg-image careers-page-hero">
 				<div>
@@ -11,7 +12,8 @@ const CareersPage = () => {
 					<button className="btn btn-lg btn-primary">See Available Positions</button>
 				</div>
 			</div>
-
+		</div>
+		<div className="container careers-page">
 			<div className="d-flex flex-column careers-page-body">
 				<div>
 					<h3>Our mission</h3>
@@ -62,27 +64,26 @@ const CareersPage = () => {
 						</p>	
 					</div>
 				</div>
-
-				<div className="d-flex flex-row justify-content-around bg-image inform-form">
-					<div>
-						<h4>
-							Let us inform you once<br/>
-							any positions are open
-						</h4>		
-						<p>Tell us your email and leave a<br/>
-						message, we will contact you!</p>	
-					</div>
-					<div>
-						<form action="/" className="d-flex flex-column justify-content-around">
-							<input type="text" placeholder="Email" className="form-control" />
-							<textarea name="" id="" cols="30" rows="2" placeholder="Message"></textarea>
-							<button className="btn btn-lg btn-primary">Proceed</button>
-						</form>
-					</div>
-				</div>
-
 			</div>
 		</div>
+		<div className="container-fluid d-flex flex-row justify-content-around bg-image inform-form">
+			<div>
+				<h4>
+					Let us inform you once<br/>
+					any positions are open
+				</h4>		
+				<p>Tell us your email and leave a<br/>
+				message, we will contact you!</p>	
+			</div>
+			<div>
+				<form action="/" className="d-flex flex-column justify-content-around">
+					<input type="text" placeholder="Email" className="form-control" />
+					<textarea name="" id="" cols="30" rows="2" placeholder="Message"></textarea>
+					<button className="btn btn-lg btn-primary">Proceed</button>
+				</form>
+			</div>
+		</div>
+		</>
 	);
 }
 

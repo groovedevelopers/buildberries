@@ -297,21 +297,7 @@
 .about-page {
   padding: 0px 0px 3.75rem;
 }
-.about-page .about-page-heading {
-  padding: 0px 0 1.25rem;
-}
-.about-page .about-page-heading .about-page-hero {
-  background-image: url("../images/about_heading_bg.png");
-  height: 50vh;
-  width: 80%;
-  border-bottom-right-radius: 20%;
-  color: #fff;
-  padding: 3.5rem 5.25rem;
-}
-.about-page .about-page-heading .about-page-hero p {
-  padding-top: 1.25rem;
-}
-.about-page .about-page-heading > p {
+.about-page > p {
   padding-top: 2.35rem;
   color: #2B547E;
 }
@@ -376,6 +362,24 @@ h3 {
   padding: 1.75rem 0 0.5rem;
 }
 
+.about-page-heading {
+  padding: 0;
+  margin: 0;
+}
+.about-page-heading .about-page-hero {
+  background-image: url("../images/about_heading_bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50vh;
+  width: 100%;
+  border-bottom-right-radius: 20%;
+  color: #fff;
+  padding: 3.5rem 5.25rem;
+}
+.about-page-heading .about-page-hero p {
+  padding-top: 1.25rem;
+}
+
 .careers-page {
   padding: 0px;
   margin-bottom: 0px;
@@ -384,7 +388,7 @@ h3 {
   padding: 2.75rem 0 1.25rem;
   background-image: url("../images/careers_heading_bg.png");
   height: 50vh;
-  width: 80%;
+  width: 100%;
   border-bottom-right-radius: 20%;
   color: #fff;
   padding: 3.5rem 5.25rem;
@@ -421,21 +425,22 @@ h3 {
   font-size: large;
   color: #5f5f5f;
 }
-.careers-page-body .inform-form {
+
+.inform-form {
   background-image: url("../images/careers_footer_bg.png");
   height: 60vh;
   padding: 3.75rem 1rem;
   color: #fff;
 }
-.careers-page-body .inform-form input {
+.inform-form input {
   margin: 0.5rem 0;
 }
-.careers-page-body .inform-form textarea {
+.inform-form textarea {
   margin: 0.5rem 0;
   resize: none;
   padding: 10px;
 }
-.careers-page-body .inform-form .btn {
+.inform-form .btn {
   margin: 0.5rem 0;
 }
 
@@ -449,7 +454,7 @@ h3 {
 .affiliates-page-hero {
   background-image: url("../images/affiliate_heading_bg.png");
   height: 50vh;
-  width: 80%;
+  width: 100%;
   border-bottom-right-radius: 20%;
   color: #fff;
   padding: 3.5rem 5.25rem;
@@ -463,6 +468,31 @@ h3 {
 .affiliates-page-body {
   color: #2B547E;
   padding: 2.5rem 0px 1.75rem;
+}
+.affiliates-page-body .hiw-item {
+  padding: 1.5rem;
+}
+.affiliates-page-body .hiw-item i {
+  font-size: 3rem;
+  padding: 15px;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.affiliates-page-body .hiw-item .one {
+  color: #2C75C0;
+}
+.affiliates-page-body .hiw-item .two {
+  color: orange;
+}
+.affiliates-page-body .hiw-item .three {
+  color: green;
+}
+.affiliates-page-body .hiw-item .four {
+  color: lightgreen;
+}
+.affiliates-page-body .hiw-item .five {
+  color: coral;
 }
 .affiliates-page-body .offer {
   min-height: 100vh;
@@ -480,9 +510,71 @@ h3 {
   border: none;
   color: #2B547E;
 }
-.affiliates-page-body .become-affiliates {
+
+.affiliates-page-head {
+  padding: 0;
+  margin: 0;
+}
+
+.become-affiliates {
   background-image: url("../images/affiliates_footer_bg.png");
-  height: 40vh;
+  height: 50vh;
+  padding: 3.75rem 5.5rem;
+  color: #fff;
+}
+
+.domains-page {
+  color: #2B547E;
+}
+.domains-page .search-section {
+  margin: 3.5rem auto;
+}
+.domains-page .search-section h3 {
+  padding: 1.5rem 0;
+}
+.domains-page .search-section div {
+  height: 10vh;
+}
+.domains-page .search-section div input {
+  margin: 10px 0;
+  padding: 20px 12px;
+  width: 60%;
+  height: 100%;
+  border: none;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.domains-page .search-section div span {
+  background-color: #2B547E;
+  height: 100%;
+  margin-left: -10px;
+  padding: 22px 15px;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.domains-page .search-section div span i {
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+}
+.domains-page .offer {
+  height: 100vh;
+  margin: 3.25rem auto;
+}
+.domains-page .offer h3 {
+  padding: 3.25rem 0px 2rem;
+}
+.domains-page .offer i {
+  font-size: 2rem;
+}
+.domains-page .offer h4 {
+  padding: 1.75rem 0px 0.5rem;
+}
+
+.find-domain {
+  background-image: url("../images/affiliates_footer_bg.png");
+  height: 50vh;
   padding: 3.75rem 5.5rem;
   color: #fff;
 }

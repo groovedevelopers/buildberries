@@ -4,27 +4,15 @@
 .about-page {
 	padding: 0px 0px 3.75rem;
 
-	.about-page-heading {
-		padding: 0px 0 1.25rem;
+	
 
-		.about-page-hero {
-			background-image: url('../images/about_heading_bg.png');
-			height: 50vh;
-			width: 80%;
-			border-bottom-right-radius: 20%;
-			color: #fff;
-			padding: 3.5rem 5.25rem;
+	
 
-			p {
-				padding-top: 1.25rem;
-			}
-		}
-
-		& > p {
-			padding-top: 2.35rem;
-			color: $primary-dark;
-		}
+	& > p {
+		padding-top: 2.35rem;
+		color: $primary-dark;
 	}
+
 }
 
 .about-page-body {
@@ -99,4 +87,24 @@
 
 h3 {
 	padding: 1.75rem 0 0.5rem;
+}
+
+.about-page-heading {
+	padding: 0;
+	margin: 0;
+
+	.about-page-hero {
+		background-image: url('../images/about_heading_bg.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		height: 50vh;
+		width: 100%;
+		border-bottom-right-radius: 20%;
+		color: #fff;
+		padding: 3.5rem 5.25rem;
+
+		p {
+			padding-top: 1.25rem;
+		}
+	}
 }

@@ -1,0 +1,71 @@
+@use 'mixins' as *;
+@use '../custom' as *;
+
+.domains-page {
+    color: $primary-dark;
+
+    .search-section {
+        margin: 3.5rem auto; 
+
+        h3 {
+            padding: 1.5rem 0;
+        }
+
+        div {
+            height: 10vh;
+
+            input {
+                margin: 10px 0;
+                padding: 20px 12px;
+                width: 60%;
+                height: 100%;
+                border: none;
+                @include shadow;
+            }
+
+            span {
+                background-color: $primary-dark;
+                height: 100%;
+                margin-left: -10px;
+                padding: 22px 15px;
+                border: none;
+                border-bottom-right-radius: 5px;
+                border-top-right-radius: 5px;
+                @include shadow;
+
+                i {
+                    font-size: 1.5rem;
+                    font-weight: lighter;
+                    color: #fff;
+                }
+
+            }
+        }
+
+    }
+
+    .offer {
+        height: 100vh;
+        margin: 3.25rem auto;
+
+        h3 {
+            padding: 3.25rem 0px 2rem;
+        }
+
+        i {
+            font-size: 2rem;
+        }
+
+        h4 {
+            padding: 1.75rem 0px 0.5rem;
+        }
+    }
+}
+
+.find-domain {
+	background-image: url('../images/affiliates_footer_bg.png');
+	height: 50vh;
+	padding: 3.75rem 5.5rem;
+	color: #fff;
+}
+    

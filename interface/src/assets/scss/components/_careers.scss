@@ -9,7 +9,7 @@
 		padding: 2.75rem 0 1.25rem;
 		background-image: url('../images/careers_heading_bg.png');
 		height: 50vh;
-		width: 80%;
+		width: 100%;
 		border-bottom-right-radius: 20%;
 		color: #fff;
 		padding: 3.5rem 5.25rem;
@@ -54,29 +54,30 @@
 		}
 	}
 
-	.inform-form {
-		background-image: url('../images/careers_footer_bg.png');
-		height: 60vh;
-		padding: 3.75rem 1rem;
-		color: #fff;
-
-		input {
-			margin: 0.5rem 0;
-		}
-
-		textarea {
-			margin: 0.5rem 0;
-			resize: none;
-			padding: 10px;
-		}
-
-		.btn {
-			margin: 0.5rem 0;
-		}
-	}
+	
 	
 }
 
+.inform-form {
+	background-image: url('../images/careers_footer_bg.png');
+	height: 60vh;
+	padding: 3.75rem 1rem;
+	color: #fff;
+
+	input {
+		margin: 0.5rem 0;
+	}
+
+	textarea {
+		margin: 0.5rem 0;
+		resize: none;
+		padding: 10px;
+	}
+
+	.btn {
+		margin: 0.5rem 0;
+	}
+}
 
 h3 {
 	padding: 1.75rem 0 0.5rem;

@@ -1,23 +1,26 @@
 import TeamPhoto1 from '../assets/images/team-1.png';
+import TeamPhoto2 from '../assets/images/team-2.png';
+import TeamPhoto3 from '../assets/images/team-3.png';
 
 const AboutPage = () => {
 	return (
-		<div className="container about-page">
+		<>
 			
-			<div className="d-flex flex-column about-page-heading">
-				<div className="about-page-hero bg-image">
-					<h2>A good website makes <br/>a good business</h2>
-					<p>Lets show you why you should <br/>build here</p>
-				</div>
-				<p>
-					Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br/>
-					sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br/>
-					consequat sunt nostrud amet.
-				</p>
+		<div className="container-fluid about-page-heading">
+			<div className="about-page-hero bg-image">
+				<h2>A good website makes <br/>a good business</h2>
+				<p>Lets show you why you should <br/>build here</p>
 			</div>
+		</div>
+		<div className="container about-page">
 
 			<div className="d-flex flex-column about-page-body">
 				<div>
+					<p className="pt-5">
+						Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet<br/>
+						sint. Velit officia consequat duis enim velit mollit. Exercitation veniam<br/>
+						consequat sunt nostrud amet.
+					</p>
 					<h3>Our history</h3>
 					<p>
 						Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui
@@ -42,7 +45,12 @@ const AboutPage = () => {
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
-							<img src={TeamPhoto1} alt="Team member" />
+							<img src={TeamPhoto2} alt="Team member" />
+							<p>Groovy Wale</p>
+							<span>Founder</span>
+						</div>
+						<div className="team-member">
+							<img src={TeamPhoto3} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
@@ -52,12 +60,7 @@ const AboutPage = () => {
 							<span>Founder</span>
 						</div>
 						<div className="team-member">
-							<img src={TeamPhoto1} alt="Team member" />
-							<p>Groovy Wale</p>
-							<span>Founder</span>
-						</div>
-						<div className="team-member">
-							<img src={TeamPhoto1} alt="Team member" />
+							<img src={TeamPhoto2} alt="Team member" />
 							<p>Groovy Wale</p>
 							<span>Founder</span>
 						</div>
@@ -159,6 +162,7 @@ const AboutPage = () => {
 
 			</div>
 		</div>
+		</>
 	);
 }
 

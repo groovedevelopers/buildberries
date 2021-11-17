@@ -7,7 +7,7 @@
 	&-hero {
 		background-image: url('../images/affiliate_heading_bg.png');
 		height: 50vh;
-		width: 80%;
+		width: 100%;
 		border-bottom-right-radius: 20%;
 		color: #fff;
 		padding: 3.5rem 5.25rem;
@@ -25,9 +25,37 @@
 		color: $primary-dark;
 		padding: 2.5rem 0px 1.75rem;
 
-		// .hiw-item {
+		.hiw-item {
+			padding: 1.5rem;
 
-		// }
+			i {
+				font-size: 3rem;
+				padding: 15px;
+				margin-bottom: 30px;
+				border-radius: 50%;
+				@include shadow;
+			}
+
+			.one {				
+				color: $primary-light;
+			}
+
+			.two {				
+				color: orange;
+			}
+
+			.three {				
+				color: green;
+			}
+
+			.four {				
+				color: lightgreen;
+			}
+
+			.five {				
+				color: coral;
+			}
+		}
 
 		.offer {
 			min-height: 100vh;
@@ -49,12 +77,17 @@
 			}
 		}
 
-		.become-affiliates {
-			background-image: url('../images/affiliates_footer_bg.png');
-			height: 40vh;
-			padding: 3.75rem 5.5rem;
-			color: #fff;
-		}
-
 	}
+}
+
+.affiliates-page-head {
+	padding: 0;
+	margin: 0;
+}
+
+.become-affiliates {
+	background-image: url('../images/affiliates_footer_bg.png');
+	height: 50vh;
+	padding: 3.75rem 5.5rem;
+	color: #fff;
 }

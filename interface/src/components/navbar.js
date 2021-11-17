@@ -1,4 +1,4 @@
-import logo from '../assets/images/icons/gd_logo.png';
+import Logo from '../assets/images/icons/gd_logo.png';
 import { Link } from 'react-router-dom';
 
 const Navbar = (props) => {
@@ -7,7 +7,7 @@ const Navbar = (props) => {
             <div className="container d-flex justify-content-around">
                 
                 <Link className="navbar-brand" to="/">
-                    <img src={logo} alt="Company Logo" width="42" height="42" className="d-inline-block align-text-center"/>
+                    <img src={Logo} alt="Company Logo" width="42" height="42" className="d-inline-block align-text-center"/>
                 </Link>
                 <div className="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
                     <ul className="nav justify-content-between">
