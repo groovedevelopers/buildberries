@@ -14,7 +14,7 @@ const DomainsPage = () => {
             <div className="offer">
                 <h3>We offer you</h3>
                 <div>
-                    <h4><i className="fa fa-twitter"></i>Domain Security</h4>
+                    <h4><i className="fa fa-arrow-right"></i>Domain Security</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum
@@ -23,7 +23,7 @@ const DomainsPage = () => {
                     </p>
                 </div>
                 <div>
-                    <h4><i className="fa fa-twitter"></i>Free web hosting</h4>
+                    <h4><i className="fa fa-arrow-right"></i>Free web hosting</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum
@@ -32,7 +32,7 @@ const DomainsPage = () => {
                     </p>
                 </div>
                 <div>
-                    <h4><i className="fa fa-twitter"></i>24/7 support</h4>
+                    <h4><i className="fa fa-arrow-right"></i>24/7 support</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum

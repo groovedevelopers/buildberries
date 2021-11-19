@@ -18,7 +18,7 @@ const AffilatesPage = () => {
                     <div>
                     	<div className="row">
                             <div className="col-md-4 hiw-item">
-								<i className="fa fa-laptop one"></i>
+								<i className="fa fa-television one"></i>
                                 <h6>Register with us</h6>
                             </div>
                             <div className="col-md-4 hiw-item">
