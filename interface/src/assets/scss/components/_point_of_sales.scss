@@ -1,0 +1,96 @@
+@use 'mixins' as *;
+@use '../custom' as *;
+
+.pos-page {
+	padding: 2.75rem auto;
+
+	&-hero {
+		background-image: url('../images/pos_heading_bg.png');
+        height: 60vh;
+		width: 100%;
+		border-bottom-right-radius: 30%;
+		color: #fff;
+		padding: 3.5rem 5.25rem;
+
+		p {
+			padding-top: 0.35rem;
+		}
+
+        button {
+            margin-top: 1.5rem;
+        }
+	}
+
+	&-body {
+		color: $primary-dark;
+		padding: 1.5rem 0px 1.75rem;
+
+        .points {
+            padding: 2rem 0px;
+
+            h4 {
+                margin: 3rem 0px 1rem;
+            }
+        }
+
+        .hiw {
+            padding: 10px 0;
+
+            h3 {
+                padding: 1.5rem 0px;
+            }
+
+            &-items div {
+                margin-bottom: 2rem;
+            }
+
+            h4 {
+                padding: 1rem 0px 10px;
+            }
+        }
+
+        .from-merchants {
+            padding: 5.25rem 0;
+
+            img {
+                width: 210px;
+                height: relative;
+            }
+
+            p {
+                margin: 10px 0 0;
+                padding: 10px 0 0;
+                color: rgb(54, 54, 54);
+            }
+
+            span {
+                padding-top: 5px;
+                color: gray;
+            }
+
+            .quote {
+                padding: 2rem 2.5rem 2rem 0;
+                font-size: large;
+                color: rgb(95, 95, 95);
+            }
+        }
+
+    }
+}
+
+.pos-head {
+	padding: 0;
+	margin: 0;
+}
+
+.pos-foot {
+	background-image: url('../images/affiliates_footer_bg.png');
+	height: 60vh;
+	padding: 3.75rem 1rem;
+	color: #fff;
+
+    h4 {
+        margin-top: 2rem;
+    }
+
+}

@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const PointOfsales = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Point of sales" />
             <PointOfsalesPage />
             <Footer />
