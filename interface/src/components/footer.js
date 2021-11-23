@@ -29,7 +29,7 @@ function Footer() {
                         <li><Link to="/online-store">Online Stores</Link></li>
                         <li><Link to="/point-of-sales">Point of Sales</Link></li>
                         <li><Link to="/email-marketing">Email Marketing</Link></li>
-                        <li><Link to="/professional-email">Professional Email</Link></li>
+                        <li><Link to="/email-marketing">Professional Email</Link></li>
                         <li><Link to="/scheduling">Scheduling</Link></li>
                     </ul>
                 </div>
@@ -37,7 +37,7 @@ function Footer() {
                     <h3>Company</h3>
                     <ul>
                         <li><Link to="/about">About</Link></li>
-                        <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link to="/about#privacy-policy">Privacy Policy</Link></li>
                         <li><Link to="/press-and-media">Press and Media</Link></li>
                         <li><Link to="/careers">Careers</Link></li>
                         <li><Link to="/affiliates">Affiliates</Link></li>
@@ -57,7 +57,7 @@ function Footer() {
                         <li><Link to="/forum">Forum</Link></li>
                         <li><Link to="/webinars">Webinars</Link></li>
                         <li><Link to="/help-and-support">Help and Support</Link></li>
-                        <li><Link to="/privacy-policy">Privacy Policy</Link></li>
+                        <li><Link to="/about#privacy-policy">Privacy Policy</Link></li>
                         <li><Link to="/gd-news-stand">GD News Stand</Link></li>
                     </ul>
                 </div>
@@ -65,9 +65,9 @@ function Footer() {
             <div className="d-flex flex-row justify-content-between align-items-center copyright">
                 <div>
                     <div>
-                        <Link to="/support">Support</Link>
-                        <Link to="/terms-of-service">Terms of Service</Link>
-                        <Link to="/privacy-policy">Privacy Policy</Link>
+                        <Link to="/help-and-support">Support</Link>
+                        <Link to="/about#terms">Terms of Service</Link>
+                        <Link to="/about#privacy-policy">Privacy Policy</Link>
                     </div>
                     <p>&copy; 2021 GD Groups</p>
                 </div>

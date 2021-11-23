@@ -128,7 +128,7 @@ const AboutPage = () => {
 					</div>
 				</div>
 
-				<div className="privacy-policy">
+				<div className="privacy-policy" id="privacy-policy">
 					<h3>Privacy Policy</h3>
 					<p>
 						Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
@@ -144,7 +144,7 @@ const AboutPage = () => {
 					</p>	
 				</div>
 
-				<div className="terms">
+				<div className="terms" id="terms">
 					<h3>Terms of Service</h3>
 					<p>
 						Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt
