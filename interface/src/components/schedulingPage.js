@@ -1,38 +1,38 @@
 const SchedulingPage = () => {
     return (
-		<div className="container scheduling">
-			
-			<div className="d-flex flex-column scheduling-hero">
-				<div>
-					<h2>Help your business grow by<br/>sheduling all your activities</h2>
-					<p>
-                        Plan ahead and never get caught off guard when new activities arise
-                    </p>
-					<button className="btn btn-lg btn-primary">Use scheduler</button>
-				</div>
-			</div>            
+        <>
+        <div className="container-fluid d-flex flex-column bg-image scheduling-page scheduling-page-hero">
+            <div>
+                <h2>Help your business grow by<br/>sheduling all your activities</h2>
+                <p>
+                    Plan ahead and never get caught off guard when new activities arise
+                </p>
+                <button className="btn btn-lg btn-primary">Use scheduler</button>
+            </div>
+        </div> 
+		<div className="container scheduling-page">           
 
-			<div className="d-flex flex-column scheduling-body">
-                <div>
+			<div className="d-flex flex-column scheduling-page-body">
+                <div className="points">
                     <div>
-                        <h3>Online scheduling</h3>
+                        <h4>Online scheduling</h4>
                         <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit</p>
                     </div>
                     <div>
-                        <h3>Sell your services with ease</h3>
+                        <h4>Sell your services with ease</h4>
                         <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit</p>
                     </div>
                     <div>
-                        <h3>Calendar management</h3>
+                        <h4>Calendar management</h4>
                         <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit</p>
                     </div>
                     <div>
-                        <h3>Grow your business</h3>
+                        <h4>Grow your business</h4>
                         <p>Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit</p>
                     </div>
                 </div>
 
-                <div>
+                <div className="answers">
                     <h4>Have questions?<br/>Here are some answers.</h4>
                     <div className="d-flex flex-row justify-content-between">
                         <div className="accordion accordion-flush" id="accordionFlushExample">
@@ -121,24 +121,24 @@ const SchedulingPage = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className="d-flex flex-row justify-content-between">
-                    <div>
-                        <h4>
-                            Start scheduling all your<br/>
-                            business activities.
-                        </h4>
-                        <p>
-                            Make flexibility your business model,<br/>
-                            deal anywhere, anytime.
-                        </p>	
-                    </div>
-                    <div>
-                        <button className="btn btn-lg btn-primary">Use scheduler</button>
-                    </div>
-                </div>
 			</div>
 		</div>
+        <div className="container-fluid d-flex flex-row bg-image justify-content-around align-items-center scheduling-foot">
+            <div>
+                <h4>
+                    Start scheduling all your<br/>
+                    business activities.
+                </h4>
+                <p>
+                    Make flexibility your business model,<br/>
+                    deal anywhere, anytime.
+                </p>	
+            </div>
+            <div>
+                <button className="btn btn-lg btn-primary">Use scheduler</button>
+            </div>
+        </div>
+        </>
 	);
 };
 

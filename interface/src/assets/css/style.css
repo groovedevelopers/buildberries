@@ -1017,6 +1017,68 @@ h3 {
   margin-top: 2rem;
 }
 
+.scheduling-page {
+  padding: 2.75rem auto;
+}
+.scheduling-page-hero {
+  background-image: url("../images/pos_heading_bg.png");
+  height: 60vh;
+  width: 100%;
+  border-bottom-right-radius: 30%;
+  color: #fff;
+  padding: 3.5rem 5.25rem;
+}
+.scheduling-page-hero p {
+  padding-top: 0.35rem;
+}
+.scheduling-page-hero button {
+  margin-top: 1.5rem;
+}
+.scheduling-page-body {
+  color: #2B547E;
+  padding: 1.5rem 0px 1.75rem;
+}
+.scheduling-page-body .points {
+  padding: 3rem 0px;
+}
+.scheduling-page-body .points h4 {
+  margin: 3rem 0px 1rem;
+}
+.scheduling-page-body .answers {
+  margin: 2rem 0px;
+}
+.scheduling-page-body .answers h4 {
+  padding-bottom: 2rem;
+}
+.scheduling-page-body .answers .accordion {
+  width: 90%;
+  padding-right: 20px;
+}
+.scheduling-page-body .answers .accordion-item {
+  padding: 10px;
+  border: none;
+  padding-left: 0px;
+}
+.scheduling-page-body .answers .accordion-item button {
+  padding-left: 0px;
+  color: #2B547E;
+}
+
+.scheduling-head {
+  padding: 0;
+  margin: 0;
+}
+
+.scheduling-foot {
+  background-image: url("../images/affiliates_footer_bg.png");
+  height: 60vh;
+  padding: 3.75rem 1rem;
+  color: #fff;
+}
+.scheduling-foot h4 {
+  margin-top: 2rem;
+}
+
 .create-account-page {
   padding: 0;
   margin: 0;

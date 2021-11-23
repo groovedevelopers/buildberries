@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const Scheduling = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Scheduling" />
             <SchedulingPage />
             <Footer />

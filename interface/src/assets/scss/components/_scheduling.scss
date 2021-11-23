@@ -1,0 +1,78 @@
+@use 'mixins' as *;
+@use '../custom' as *;
+
+.scheduling-page {
+	padding: 2.75rem auto;
+
+	&-hero {
+		background-image: url('../images/pos_heading_bg.png');
+        height: 60vh;
+		width: 100%;
+		border-bottom-right-radius: 30%;
+		color: #fff;
+		padding: 3.5rem 5.25rem;
+
+		p {
+			padding-top: 0.35rem;
+		}
+
+        button {
+            margin-top: 1.5rem;
+        }
+	}
+
+	&-body {
+		color: $primary-dark;
+		padding: 1.5rem 0px 1.75rem;
+
+        .points {
+            padding: 3rem 0px;
+
+            h4 {
+                margin: 3rem 0px 1rem;
+            }
+        }
+
+        .answers {
+            margin: 2rem 0px;
+
+            h4 {
+                padding-bottom: 2rem;
+            }
+
+            .accordion {
+                width: 90%;
+                padding-right: 20px;
+
+                &-item {
+                    padding: 10px;
+                    border: none;
+                    padding-left: 0px;
+
+                    button {
+                        padding-left: 0px;
+                        color: $primary-dark;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+.scheduling-head {
+	padding: 0;
+	margin: 0;
+}
+
+.scheduling-foot {
+	background-image: url('../images/affiliates_footer_bg.png');
+	height: 60vh;
+	padding: 3.75rem 1rem;
+	color: #fff;
+
+    h4 {
+        margin-top: 2rem;
+    }
+
+}
