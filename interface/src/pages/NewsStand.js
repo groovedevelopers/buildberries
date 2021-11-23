@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const NewsStand = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="GD news and press" />
             <NewsStandPage />
             <Footer />

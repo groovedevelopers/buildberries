@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const HelpCenter = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="We are here for you, how can we help?" />
             <HelpCenterPage />
             <Footer />

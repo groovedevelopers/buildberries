@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const EmailMarketing = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Email Marketing" />
             <EmailMarketingPage />
             <Footer />

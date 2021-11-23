@@ -6,7 +6,7 @@ import { Footer } from "../components/footer";
 const OnlineStore = () => {
     return (
         <>
-            <Navbar />
+            <Navbar isIndex="0" />
             <PageHeader headerTitle="Your own online store" />
             <OnlineStorePage />
             <Footer />

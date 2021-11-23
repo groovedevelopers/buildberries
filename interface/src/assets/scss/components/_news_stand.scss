@@ -1,0 +1,107 @@
+@use 'mixins' as *;
+@use '../custom' as *;
+
+.news-stand-page {
+	padding: 2.75rem auto;
+
+	&-hero {
+		background-image: url('../images/about_heading_bg.png');
+		background-repeat: no-repeat;
+        height: 50vh;
+		width: 100%;
+		border-bottom-right-radius: 0%;
+		color: #fff;
+		padding: 3.5rem 5.25rem;
+
+		p {
+			padding-top: 1.35rem;
+		}
+	}
+
+	&-body {
+		color: $primary-dark;
+		padding: 1.5rem 0px 1.75rem;
+
+        .trending-today {
+            padding: 1.5rem 0px;
+
+            h3 {
+                padding-bottom: 30px;
+            }
+
+            .trending-item {
+                margin: 1.5rem 0px;
+                padding: 1.5rem 0px;
+
+                img {
+                    width: 400px;
+                    border-bottom-right-radius: 40%;
+                }
+
+                &-body {
+                    padding-left: 3.5rem;
+                    padding-bottom: 1rem;
+
+                    h4 {
+                        padding-bottom: 1rem;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        color: $primary-dark;
+
+                        img {
+                            width: 32px;
+                            height: auto;
+                        }
+                    }
+                }
+            }
+        }
+
+        .more-articles {
+            padding: 2.5rem;
+
+            a {
+                text-decoration: none;
+                color: $primary-dark;
+
+                img {
+                    width: 28px;
+                    height: auto;
+                }
+            }
+        }
+
+    }
+}
+
+.news-stand-head {
+	padding: 0;
+	margin: 0;
+}
+
+.news-stand-foot {
+	background-image: url('../images/careers_footer_bg.png');
+	height: 60vh;
+	padding: 3.75rem 1rem;
+	color: #fff;
+
+    h4 {
+        margin-top: 2rem;
+    }
+
+	input {
+		margin: 0.5rem 0;
+	}
+
+	textarea {
+		margin: 0.5rem 0;
+		resize: none;
+		padding: 10px;
+	}
+
+	.btn {
+		margin: 0.5rem 0;
+	}
+}

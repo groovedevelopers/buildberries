@@ -1,3 +1,5 @@
+import RightArrow from '../assets/images/icons/right-arrow.svg';
+
 const DomainsPage = () => {
     return (
         <>
@@ -14,7 +16,7 @@ const DomainsPage = () => {
             <div className="offer">
                 <h3>We offer you</h3>
                 <div>
-                    <h4><i className="fa fa-arrow-right"></i>Domain Security</h4>
+                    <h4><img src={ RightArrow } alt="Right arrow" /> Domain Security</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum
@@ -23,7 +25,7 @@ const DomainsPage = () => {
                     </p>
                 </div>
                 <div>
-                    <h4><i className="fa fa-arrow-right"></i>Free web hosting</h4>
+                    <h4><img src={ RightArrow } alt="Right arrow" /> Free web hosting</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum
@@ -32,7 +34,7 @@ const DomainsPage = () => {
                     </p>
                 </div>
                 <div>
-                    <h4><i className="fa fa-arrow-right"></i>24/7 support</h4>
+                    <h4><img src={ RightArrow } alt="Right arrow" /> 24/7 support</h4>
                     <p>
                         Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et.
                         Sunt qui esse pariatur duis deserunt mollit dolore cillum
