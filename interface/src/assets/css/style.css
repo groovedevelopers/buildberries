@@ -843,6 +843,104 @@ h3 {
   margin: 0.5rem 0;
 }
 
+.help-center-page {
+  padding: 2.75rem auto;
+  color: #2B547E;
+}
+.help-center-page-heading {
+  margin: 2rem 0px;
+}
+.help-center-page-heading form {
+  padding-top: 2rem;
+}
+.help-center-page-heading form input {
+  margin: 10px 0;
+  padding: 20px 12px;
+  width: 60%;
+  height: 100%;
+  border: none;
+  float: left;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.help-center-page-heading form span {
+  background-color: #2B547E;
+  height: 100%;
+  margin-left: -10px;
+  padding: 22px 15px;
+  border: none;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 1px 2px 1px white, 3px 6px 20px rgba(0, 0, 0, 0.2);
+}
+.help-center-page-heading form span i {
+  padding-top: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: lighter;
+  color: #fff;
+}
+.help-center-page-body {
+  padding: 1.5rem 0px 1.75rem;
+}
+.help-center-page-body .articles {
+  padding: 1.5rem 0px;
+}
+.help-center-page-body .articles h3 {
+  padding-bottom: 30px;
+}
+.help-center-page-body .articles .article {
+  margin: 1.5rem 0px;
+  padding: 1.5rem 0px;
+}
+.help-center-page-body .articles .article img {
+  width: 400px;
+  border-bottom-right-radius: 40%;
+}
+.help-center-page-body .articles .article-body {
+  padding-left: 3.5rem;
+  padding-bottom: 1rem;
+}
+.help-center-page-body .articles .article-body h4 {
+  padding-bottom: 1rem;
+}
+.help-center-page-body .articles .article-body a {
+  text-decoration: none;
+  color: #2B547E;
+}
+.help-center-page-body .articles .article-body a img {
+  width: 32px;
+  height: auto;
+}
+.help-center-page-body .more-articles {
+  padding: 2.5rem;
+}
+.help-center-page-body .more-articles a {
+  text-decoration: none;
+  color: #2B547E;
+}
+.help-center-page-body .more-articles a img {
+  width: 28px;
+  height: auto;
+}
+.help-center-page-body .answers {
+  margin: 2rem 0px;
+}
+.help-center-page-body .answers h4 {
+  padding-bottom: 2rem;
+}
+.help-center-page-body .answers .accordion {
+  width: 90%;
+  padding-right: 20px;
+}
+.help-center-page-body .answers .accordion-item {
+  padding: 10px;
+  border: none;
+  padding-left: 0px;
+}
+.help-center-page-body .answers .accordion-item button {
+  padding-left: 0px;
+  color: #2B547E;
+}
+
 .create-account-page {
   padding: 0;
   margin: 0;
