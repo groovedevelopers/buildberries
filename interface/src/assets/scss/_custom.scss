@@ -1,3 +1,9 @@
+
+
+$primary-dark: #2B547E;
+$primary-light: #2C75C0;
+
+// CUSTOM STYLES
 * {
 	box-sizing: border-box;
 	padding: 0;
@@ -7,9 +13,6 @@
 .btn {
 	border: none !important;
 }
-
-$primary-dark: #2B547E;
-$primary-light: #2C75C0;
 
 .btn-primary {
 	background-color: $primary-dark;

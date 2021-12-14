@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import phoneImage from '../assets/images/home_products_phone.png';
 
 function Products(){
@@ -12,7 +13,7 @@ function Products(){
                     <img src={phoneImage} alt="Phone" className="rounded phone-image" />
                 </div>
                 <div>
-                    <p>Try It</p>
+                    <p><Link to="/create-account">Try It</Link></p>
                 </div>
             </div>
         </div>

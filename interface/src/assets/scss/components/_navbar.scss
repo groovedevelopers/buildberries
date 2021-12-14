@@ -34,3 +34,10 @@
     height: 150vh;
     margin-bottom: 70vh;
 }
+
+@media only screen and (max-width: 600px) {
+    .navbar-hero {
+        height: 65vh;
+        margin-bottom: 20vh;
+    }
+}

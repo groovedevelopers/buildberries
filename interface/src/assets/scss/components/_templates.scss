@@ -17,6 +17,11 @@
     height: max-content;
     margin-bottom: 12vh;
 
+    a {
+        color: $primary-dark;
+        text-decoration: none;
+    }
+
     .template {
         padding: 20px 0px;
         margin: 0px;
@@ -116,4 +121,38 @@
 
 .templates-help {
     background-image: url('../images/templates_page_cta.png');
+}
+
+@media only screen and (max-width: 600px) {
+    .templates-home-heading {
+        padding: 10px;
+    }
+
+    .templates {
+        height: max-content;
+        margin-bottom: 12vh;
+
+        & > div {
+            display: flex;
+            flex-direction: column !important;
+        }
+    
+        .template {
+            padding: 20px 0px;
+            margin: 0px;
+    
+            img {
+                width: 100%;
+            }
+    
+        }
+    
+        span {
+            display: block;
+            text-align: center;
+            padding-top: 5px;
+            color: $primary-dark;
+            font-size: 1.25rem;
+        }
+    }
 }

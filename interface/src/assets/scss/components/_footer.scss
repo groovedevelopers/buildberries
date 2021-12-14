@@ -58,3 +58,30 @@
         }
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .cta {
+        padding: 20px 10px;
+
+        & > div {
+            display: flex;
+            flex-direction: column !important;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .footer {
+        & > div {
+            display: flex;
+            flex-direction: column !important;
+        }
+
+        .copyright {
+            padding: 20px 10px;
+        }
+    }
+}

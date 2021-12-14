@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import HeroImage from '../assets/images/hero_2_bg.png';
 import HeroPhone from '../assets/images/hero_2_phone.png';
 
@@ -8,7 +9,9 @@ const Hero = () => {
                 <div className="text-center">
                     <h2>Create Your Own <br/> Website Now.</h2>
                     <p>Make your idea a reality with <br/> our custom web templates</p>
+                    <Link to="/create-account">
                     <button type="button" className="btn btn-primary btn-lg">Get Started</button>
+                    </Link>
                 </div>
             </div>
             <div className="row hero-2">
