@@ -75,3 +75,52 @@
         height: auto;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .login-page {
+        max-width: 100%;
+        overflow-x: hidden;
+    
+        &-left {
+            height: fit-content;
+            padding: 20px 2rem;
+    
+            h3 {
+                padding: 3vh 0px 3vh 0px;
+            }
+    
+            div:last-child {
+                padding-top: 7vh;
+            }
+
+            i {
+                font-size: 1rem;
+            }
+        }
+    
+        &-right {
+            padding: 20px 2rem;
+    
+            input {
+                width: 100%;
+                padding: 10px 20px;
+                border: none;
+                @include shadow;
+            }
+
+            .btn {
+                width: 100%;
+            }
+    
+            i {
+                display: none;
+            }
+        }
+    
+        img:first-child {
+            width: 72px;
+            height: auto;
+        }
+    }
+    
+}
