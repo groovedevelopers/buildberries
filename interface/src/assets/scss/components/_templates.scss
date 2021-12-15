@@ -155,4 +155,29 @@
             font-size: 1.25rem;
         }
     }
+
+    .templates-div {
+        .page-header {
+            padding: 10px;
+            display: flex;
+            flex-direction: column !important;
+
+            input[type='text'] {
+                width: 100%;
+                padding: 8px 10px;
+                border: none;
+                box-shadow: 1px 1px 10px 2px #dfdfdf;
+                border-radius: 5px;
+            }
+        }
+    
+        .dropdown {
+            margin: 0 0 0 12px;
+        }
+
+        .filter {
+            margin-left: 10px;
+        }
+        
+    }
 }

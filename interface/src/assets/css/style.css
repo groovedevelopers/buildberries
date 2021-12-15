@@ -261,6 +261,25 @@
     color: #2B547E;
     font-size: 1.25rem;
   }
+
+  .templates-div .page-header {
+    padding: 10px;
+    display: flex;
+    flex-direction: column !important;
+  }
+  .templates-div .page-header input[type=text] {
+    width: 100%;
+    padding: 8px 10px;
+    border: none;
+    box-shadow: 1px 1px 10px 2px #dfdfdf;
+    border-radius: 5px;
+  }
+  .templates-div .dropdown {
+    margin: 0 0 0 12px;
+  }
+  .templates-div .filter {
+    margin-left: 10px;
+  }
 }
 .call-to-action {
   height: 80vh;
@@ -396,6 +415,23 @@
   right: 10%;
 }
 
+@media only screen and (max-width: 600px) {
+  .pricing-page-body {
+    height: fit-content;
+    margin: 20px 0;
+  }
+  .pricing-page-body > div {
+    display: flex;
+    flex-direction: column !important;
+  }
+  .pricing-page-body > div .pricing-div {
+    width: 100%;
+    height: fit-content;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    padding: 2rem 2.25rem 4rem;
+  }
+}
 .about-page {
   padding: 0px 0px 3.75rem;
 }
@@ -1390,6 +1426,13 @@ h3 {
 .page-bottom-help .btn {
   margin-top: 3.75rem;
   background-color: #2B547E;
+}
+
+@media only screen and (max-width: 600px) {
+  .page-header {
+    height: fit-content;
+    padding: 10px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

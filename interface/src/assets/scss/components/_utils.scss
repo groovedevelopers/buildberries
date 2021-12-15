@@ -23,3 +23,10 @@
         background-color: $primary-dark;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .page-header {
+        height: fit-content;
+        padding: 10px;
+    }
+}

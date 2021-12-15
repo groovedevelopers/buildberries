@@ -60,3 +60,23 @@
 		}
 	}
 }
+
+@media only screen and (max-width: 600px) {
+	.pricing-page-body {
+		height: fit-content;
+		margin: 20px 0;
+
+		& > div {
+			display: flex;
+			flex-direction: column !important;
+
+			.pricing-div {
+				width: 100%;
+				height: fit-content;
+				margin: 0 auto;
+				margin-bottom: 50px;
+				padding: 2rem 2.25rem 4rem;
+			}
+		}
+	}
+}
