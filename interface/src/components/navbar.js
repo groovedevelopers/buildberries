@@ -1,7 +1,14 @@
 import Logo from '../assets/images/icons/gd_logo.png';
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
 
 const Navbar = (props) => {
+
+    // scroll to top
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <nav className={ props.isIndex === "0" ? "navbar navbar-expand-lg navbar-light navbar-custom" : "navbar navbar-expand-lg navbar-light" }>
             <div className="container d-flex justify-content-around">
